@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>chucks site</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<!--font awesome-->
+		
+		
+		<!--main css-->
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<header>
+			<nav id="navbar" class="navbar">
+				<a href="#" class="navbar-brand"><img src="img/fdic-logo.svg"> </a>	
+					<div id="myNav" class="overlay">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<div class="overlay-content" id="accordion">
+							<div class="nav-content">
+								<a href="#about" class="nav-links"  data-toggle="collapse">About</a>
+								<div id="about" class="collapse nav-text" data-parent="#accordion">
+									<p>The Federal Deposit Insurance Corporation (FDIC) is an independent agency created by the Congress to maintain stability and public confidence in the nation’s financial system. Learn about the FDIC’s mission, leadership, history, career opportunities, and more. </p>
+
+									<a href="#">Learn More About the FDIC </a>
+								</div>
+							</div>
+
+							<div class="nav-content">
+								<a href="#resources" class="nav-links" data-toggle="collapse">Resources</a>
+								<div id="resources" class="collapse nav-text" data-parent="#accordion">
+									<p>The FDIC provides a wealth of resources for consumers, bankers, analysts, and other stakeholders. Browse our collection of financial education materials, data tools, documentation of laws and regulations, information on important initiatives, and more.</p>
+
+									<a href="#">Additional FDIC Resources</a>
+
+								</div>
+							</div>
+
+							<div class="nav-content">
+								<a href="#analysis" class="nav-links" data-toggle="collapse">Analysis</a>
+								<div id="analysis" class="collapse nav-text" data-parent="#accordion">
+									<p>The FDIC is proud to be a pre-eminent source of U.S. banking industry research, including quarterly banking profiles, working papers, and state banking performance data. Browse our extensive research tools and reports.</p>
+
+									<a href="#">More FDIC Analysis</a>
+								</div>
+							</div>
+
+							<div class="nav-content">
+								<a href="#news" class="nav-links" data-toggle="collapse">News</a>
+								<div id="news" class="collapse nav-text" data-parent="#accordion">
+									<p>The FDIC publishes regular updates on news and activities. Keep up with FDIC announcements, read speeches and testimony on the latest banking issues, learn about policy changes for banks, and get the details on upcoming conferences and events. </p>
+
+									<a href="#">Find More FDIC News</a>
+								</div>
+							</div> <!--end of nav-content div-->
+						</div> <!--end of overlay content div-->
+
+						<div class="navbar-help">
+							<h3>HOW CAN WE HELP YOU?</h3>
+							<select name="help" id="" class="custom-select">
+								<option  class="selected">I am a ...</option>
+								<option value="">Bank customer</option>
+								<option value="">Banker</option>
+								<option value="">Consumer</option>
+								<option value="">Small Business Owner</option>
+								<option value="">Analyst/Researcher/Student</option>
+								<option value="">Legal Professional</option>
+								<option value="">Bank Regulator</option>
+								<option value="">Press/Media</option>
+								<option value="">Vendor/Contractor</option>
+								<option value="">Legislative Staff Member</option>
+								<option value="">Job Seeker</option>
+								<option value="">Court Clerk</option>
+								<option value="">Procecutor/Probation officer</option>
+								<option value="">Investigator</option>
+								
+							</select>
+							<select name="" id="" class="custom-select">
+								<option value="">I want to ...</option>
+							</select>
+							<button type="button" class="footer-btn">GET STARTED</button>
+							<div class="nav-socials">
+								<i class="fab fa-facebook"></i>
+							</div>
+						</div>
+					</div> <!--end of main nav div-->
+
+				<span onclick="openNav()" class="openbtn"> <img src="img/icon-hamburger.svg"> </span>
+			</nav>
+		</header>	
+		<main>
+			<section class="header-cards">
+				<div class="slideshow-container">
+					<div class="events mySlides">
+						<img src="img/boardroom.jpg" class="slide-image" alt="boardroom chair image">
+						<div class="slide-body">
+							<p> <span class="h-color">EVENT </span> <br>
+							FDIC board meeting</p>
+							<p>The FDIC Board of Directors will meet at 10:00 a.m. ET on Tuesdauy, December 14, 2021. The event will be webcast live.</p>
+						</div>
+					</div>
+					<div class="announcement mySlides">
+						<img src="img/announcement.png" class="slide-image" alt="anouncemnt image">
+						<div class="slide-body">
+							<p> <span class="h-color">ANNOUNCEMENT </span> <br>
+							FDIC chairman jelena McWilliams Announces New Mission-Driven Bank fund</p>
+						</div>
+					</div>
+					<div class="initiative mySlides">
+						<img src="img/initiative.jpg" class="slide-image" alt="initiative image">
+						<div class="slide-body">
+							<p> <span class="h-color">INITIATIVE  </span> <br>
+							#GetBanked</p>
+							<p>the FDIC public awareness campaign about the benefits of opening a bank account</p>
+						</div>
+					</div>
+				</div>
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div> 
+				<div class="covid">
+					<a href="#">Our Response to the Coronavirus Pandemic</a>
+				</div>
+			</section>
+			<hr class="line-break">
+			
+			<section class="home-about">
+				<h1>About the FDIC</h1>
+				<p>The Federal Deposit Insurance Corporation (FDIC) is an independent agency created by the Congress to maintain stability and public confidence in the nation’s financial system. The FDIC insures deposits; examines and supervises financial institutions for safety, soundness, and consumer protection; makes large and complex financial institutions resolvable; and manages receiverships.</p>
+				<button type="button" class="btn about-btn">LEARN MORE</button>
+			</section>
+			<section class="categories" id="accordion">
+				<a href="#bankers" class="section-toggle-link" data-toggle="collapse"> <h3> BANKERS </h3> </a>
+				<div id="bankers"  class="collapse show" data-parent="#accordion">
+					<div class="section-intro">
+						<img src="img/icon-bankers.svg" class="icons">
+						<h2>Bankers</h2>
+						<p>The FDIC provides extensive resources for bankers, including guidance on regulations, information on examinations, legislation insights, and training programs.</p>
+					</div>
+					<div class="section-card">
+						<img src="img/announcement.png">
+						<a href="#" class="section-link"> <span class="section-title">ANNOUNCEMENT / September 16, 2021 </span> 
+						<br>
+						FDIC Chairman Jelena Williams Announces New Mission-Driven Bank Fund</a>
+						<p class="section-text pt-3">The FDIC today announced the launch of a new Mission-Driven Bank Fund, a capital investment vehicle being developed by the FDIC to support insured Minority Depository Institutions (MDIs) and Community Development Financial Institutions (CDFIs).</p>
+					</div>
+				</div>
+				<a href="#consumers" class="section-toggle-link" data-toggle="collapse"> <h3>CONSUMERS </h3> </a>
+				<div id="consumers" class="collapse" data-parent="#accordion">
+					<div class="section-intro">
+						<img src="img/icon-consumers.svg" class="icons">
+						<p>The FDIC provides tools, education, and news updates to help consumers make informed decisions and protect their assets.</p>
+					</div>
+					<div class="section-card">
+						<img src="img/initiative.jpg" >
+						<a href="#" class="section-link"> <span class="section-title">INITIATIVES / Apr. 5, 2021</span> </br>
+						#GetBanked </a> 
+						<p class="section-text pt-3">If you are in one of the millions of U.S. households without a bank account, and you are looking to open an account, there are resources available to help you get started. Banking relationships generally begin with a checking or savings account, and may lead to low-interest loans and mortgages. <a href="#">Learn more about the top reasons to open a bank account. </a> </p>
+
+
+						<p>	#GetBanked-español</p>
+					</div>
+				</div>
+		
+				<a href="#analyst" class="section-toggle-link" data-toggle="collapse"><h3>ANALYST</h3> </a>
+				<div id="analyst" class="collapse" data-parent="#accordion">
+					<div class="section-intro">
+						<img src="img/icon-analysts.svg" class="icons">
+						<p>The FDIC is proud to be a pre-eminent source of U.S. banking industry research for analysts, including quarterly banking profiles, working papers, and state banking performance data.</p>
+					</div>
+					<div class="section-card">
+						<img src="img/webinar.jpg" >
+						<a href="#" class="section-link"> <span class="section-title">WEBINER SERIES / Jun. 17, 2021 </span> </br> 
+						Banking on Date Webiner 3P Ethics of artificial Intelligence and Machine Learning</a>
+						<p class="section-text pt-3">This series, in partnership with the Santa Clara University (SCU) Leavey School of Business, builds on the themes of the 2019 FDIC FinTech Research Conference, highlighting the opportunities and challenges for financial institutions, consumers, and the financial system created by the use of big data and applied technologies.</p>
+					</div>
+				</div>
+			</section>
+			
+			<section class="jelena">
+				<div class="jelena-image">
+					<img src="img/jelena.png">
+			</div>
+				<div class="jelena-bio">
+					<div class="jelena-bio-text">
+						<h1>Jelena McWilliams</h1>
+						<h4>21st Chairman of the FDIC</h4>
+						<p>Jelena McWilliams was sworn in as the 21st Chairman of the FDIC on June 5, 2018. Previously, Ms. McWilliams was executive vice president, chief legal officer, and corporate secretary for a regional bank; chief counsel on the U.S. Senate Banking, Housing and Urban Affairs Committee; assistant chief counsel on the U.S. Senate Committee on Small Business and Entrepreneurship; and an attorney at the Federal Reserve Board of Governors and in private practice. One of Chairman McWilliams' key initiatives at the FDIC is Trust through Transparency to make the FDIC more accessible, understandable, and responsive. </p>
+
+						<a href="#">Learn More About the Chairman</a>
+						<a href="#">Speeches & Testimony </a>
+						<a href="#">Invite the Chairman to an Event</a>
+					</div>
+				</div>
+				<div class="jelena-visits">
+					<h1>FDIC Chairman State Visits</h1>
+					<p>As part of her Trust through Transparency initiative, Chairman McWilliams is meeting with stakeholders in every state. In her first 18 months as Chairman, she visited bankers, state officials, community groups and other stakeholders in 30 states. Since the pandemic, Chairman McWilliams has continued state visits virtually. Click on states in the map below to follow her travels. </p>
+
+					<ul>
+						<li>
+							<a href="#"> Learn About Trust through Transparency </a>
+						</li>
+						<li>
+							<a href="#"> State Economic Profile </a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="news">
+				<div class="heading">
+					<img src="img/icon-news.svg" class="icons text-center">
+					<h1>Latest News</h1>
+				</div>
+				
+				
+					<div class="slideshow-container">
+						<div class="news-item mySlides1">
+							<img src="img/event-news.jpg" class="news-image">
+							<p>EVENT / November 30, 2021</p>
+							<a href="#">Quarterly Banking Profile</a>
+						</div>
+						<div class="news-item mySlides1">
+							<img src="img/credit-cards.jpg" class="news-image">
+							<p>CONSUMER NEWS / November 8, 2021</p>
+							<a href="#">Using The Right Card</a>
+						</div>
+						<div class="news-item mySlides1">
+							<img src="img/cybersecurity.jpg" class="news-image">
+							<p>CONSUMER NEWS / October 8, 2021</p>
+							<a href="#">Cybersecurity is Key</a>
+						</div>
+						<div class="news-item mySlides1">
+							<img src="img/innovation.jpg" class="news-image">
+							<p>INNOVATION / september 13, 2021</p>
+							<a href="#">FDITeCH selects Three winning teams in tech sprint to reach thre unbanked</a>
+						</div>
+					</div>
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlides(1)"></span>
+						<span class="dot" onclick="currentSlides(2)"></span>
+						<span class="dot" onclick="currentSlides(3)"></span>
+						<span class="dot" onclick="currentSlides(4)"></span>
+					</div>
+			
+			</section>
+			<hr class="line-break">
+			
+			<section class="data">
+				<div class="heading">
+					<img src="img/icon-data-insights.svg" class="icons">
+					<h1>Data & Insights</h1>
+				</div>
+				<div class="slideshow-container">
+					<div class="data-item mySlides2">
+						<img src="img/income.jpg" class="news-image">
+						<div class="data-text">
+							<h2>Quarterly Net Income </h2>
+							<p>The banking industry reported quarterly net income of $69.5 billion during the third quarter, a 35.9% increase from a year ago</p>
+						</div>
+					</div>
+					<div class="data-item mySlides2">
+						<img src="img/insured-banks.jpg" class="news-image">
+						<div class="data-text">
+							<h2>Number of Insured Banks </h2>
+							<p>For the 4,914 commercial banks and saving institutions, aggregate net income totaled $69.5 billion, an increase of 35.6% from a year ago</p>
+						</div>
+					</div>
+					<div class="data-item mySlides2">
+						<img src="img/dif-funding.jpg" class="news-image">
+						<div class="data-text">
+							<h2>DIF funding </h2>
+							<p>The Deposit Insurance Fund (DIF) balance was $121.9 boillion on september 30, up to $1.4 billion from the eend of last quarter</p>
+						</div>
+					</div>
+					<div class="data-item mySlides2">
+						<div class="data-text">
+							<img src="img/community.jpg" class="news-image">
+							<h2>Community Bank Growth </h2>
+							<p>Community banks reported quarterly net income of $8.6 billion in the third quarter, an increase of 19.6% from a year ago</p>
+						</div>
+					</div>
+					<div class="data-item mySlides2">
+						<img src="img/reserve.jpg" class="news-image">
+						<div class="data-text">
+							<h2>DIF Reserve Ratio </h2>
+							<p>The reserve ratio-the amount in the DIF relative to insured deposites-remained at 1.27% for the third quarter. A fund Resolution Plan was adopted in September 2020.</p>
+						</div>
+					</div>
+					<div class="data-item mySlides2">
+						<img src="img/problem-banks.jpg" class="news-image">
+						<div class="data-text">
+							<h2>Number of "problem Banks"</h2>
+							<p>The number of banks on the FDIC's "Problem Bank List" declined to 46 during the quarter</p>
+						</div>
+					</div>
+				</div>
+
+				<div style="text-align:center">
+					<span class="dot" onclick="activeSlide(1)"></span>
+					<span class="dot" onclick="activeSlide(2)"></span>
+					<span class="dot" onclick="activeSlide(3)"></span>
+					<span class="dot" onclick="activeSlide(4)"></span>
+					<span class="dot" onclick="activeSlide(5)"></span>
+					<span class="dot" onclick="activeSlide(6)"></span>
+					
+				</div>
+			</section>
+
+			<footer class="footer">
+				<div class="footer-contact">
+					<h3 class="mb-4">CONTACT THE FDIC</h3>
+					<button type="button" class="footer-btn">CONTACT US</button>
+				</div>
+				<hr class="line"> 
+				<div class="footer-informed">
+					<h3 class="mb-4">STAY INFORMED</h3>
+					<form>
+						<input type="text" placeholder="enter your email address" class="input-email"> <br>
+						<button type="button" value="submit" class="footer-btn"> GET STARTED</button>
+					</form>
+					<div class="footer-socials">
+						<i class="fa fab-facebook"></i>
+					</div>
+
+				</div>
+				<hr class="line">
+				<div class="footer-help">
+					<h3>HOW CAN WE HELP YOU?</h3>
+					<select name="" id="" class="pb-5">
+						<option value="" class="active">I am a ...</option>
+						<option value="">Bank customer</option>
+						<option value="">Banker</option>
+						<option value="">Consumer</option>
+						<option value="">Small Business Owner</option>
+						<option value="">Analyst/Researcher/Student</option>
+						<option value="">Legal Professional</option>
+						<option value="">Bank Regulator</option>
+						<option value="">Press/Media</option>
+						<option value="">Vendor/Contractor</option>
+						<option value="">Legislative Staff Member</option>
+						<option value="">Job Seeker</option>
+						<option value="">Court Clerk</option>
+						<option value="">Procecutor/Probation officer</option>
+						<option value="">Investigator</option>
+						
+					</select>
+					<select name="" id="">
+						<option value="">I want to ...</option>
+					</select>
+					<button type="button" class="footer-btn">GET STARTED</button>
+				</div>
+			</footer>
+			<div class="footer-links">
+				<a href="#">POLICIES</a>
+				<a href="#">HELP</a>
+				<a href="#">FOIA</a>
+				<a href="#">EN ESPANOL</a>
+				<a href="#">ACCESSIBILITY</a>
+				<a href="#">OPEN GOVERNMENT</a>
+				<a href="#">SITE MAP</a>
+				<a href="#">USA.GOV</a>
+				<a href="#">CONTACT US</a>
+				<a href="#">PRIVACY</a>
+				<a href="#">PLAIN WRITING </a>
+				<a href="#">NO FEAR ACT DATA</a>
+				<a href="#">INSPECTOR GENERAL</a>
+			</div>
+		</main>
+
+		<script src="main.js"></script>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>

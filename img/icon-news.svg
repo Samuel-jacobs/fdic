@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="79px" viewBox="0 0 83 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / Visual / Latest News</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon-/-Visual-/-Latest-News" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#B7AC82" stroke-width="3" cx="42.5" cy="39.5" r="36"></circle>
+        <g id="Group-19" transform="translate(19.000000, 16.000000)" stroke="#7F7044" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M39,9 L40.5,9 C41.328,9 42,9.896 42,11 L42,31" id="Stroke-1"></path>
+            <path d="M4,31 L4,11 C4,9.896 4.672,9 5.5,9 L7,9" id="Stroke-3"></path>
+            <line x1="29" y1="38.5" x2="16" y2="38.5" id="Stroke-5"></line>
+            <path d="M12.4347826,35 L0,35 C0,37.8 2.10530435,42 4.7826087,42 L39.2173913,42 C41.8946957,42 44,37.8 44,35 L31.5652174,35" id="Stroke-7"></path>
+            <path d="M38,0 L13.8928571,0 C12.2950357,0 11,1.29134615 11,2.88461538 L11,25" id="Stroke-9"></path>
+            <line x1="17" y1="14.5" x2="29" y2="14.5" id="Stroke-11"></line>
+            <line x1="16" y1="18.5" x2="23" y2="18.5" id="Stroke-13"></line>
+            <line x1="17" y1="8.5" x2="29" y2="8.5" id="Stroke-15"></line>
+            <path d="M39,4.70588235 L40,4.70588235 C40.552,4.70588235 41,4.28517647 41,3.76470588 L41,2.82352941 C41,1.27058824 39.65,0 38,0 C36.35,0 35,1.27058824 35,2.82352941 L35,24" id="Stroke-17"></path>
+        </g>
+    </g>
+</svg>
