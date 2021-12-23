@@ -9,10 +9,14 @@ html, body {
 	overflow-x: hidden;
 	line-height: 1.15;
 }
+.title-color {
+	color: var(--primaryColor);
+}
 
 .navbar {
 	background-color: var(--primaryColor);
 	height: 50px;
+	border-bottom: 5px solid white;
 }
 .navbar-logo {
 	position: fixed;
@@ -123,7 +127,7 @@ html, body {
 	color:  var(--primaryColor);
 }
 a .section-title {
-	color: #736539;;
+	color: #736539;
 }
 
 .section-toggle-link h3{
@@ -168,7 +172,15 @@ a .section-title {
 .news {
 	padding: 30px;
 }
-
+.news-item p {
+color	: #736539;
+}
+.news-item a {
+	color: var(--primaryColor);
+}
+.news-item a:hover {
+	text-decoration: underline;
+}
 .heading {
 	text-align: center;
 }
@@ -312,6 +324,7 @@ select {
 }
 .socials {
 	padding-top: 30px;
+	padding-bottom: 20px;
 }
 .socials a {
 	display: inline;
