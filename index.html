@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>chucks site</title>
+		<title>FDIC: Federal Deposit Insurance Corporarion</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,8 +19,8 @@
 	</head>
 	<body>
 		<header>
-			<nav id="navbar" class="navbar">
-				<a href="#" class="navbar-brand"><img src="img/fdic-logo.svg"> </a>	
+			<nav id="navbar" class="navbar fixed-top">
+				<a href="#" class="navbar-logo"><img src="img/fdic-logo.svg"> </a>	
 					<div id="myNav" class="overlay">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 						<div class="overlay-content" id="accordion">
@@ -64,28 +64,30 @@
 
 						<div class="navbar-help">
 							<h3>HOW CAN WE HELP YOU?</h3>
-							<select name="help" id="" class="custom-select">
-								<option  class="selected">I am a ...</option>
-								<option value="">Bank customer</option>
-								<option value="">Banker</option>
-								<option value="">Consumer</option>
-								<option value="">Small Business Owner</option>
-								<option value="">Analyst/Researcher/Student</option>
-								<option value="">Legal Professional</option>
-								<option value="">Bank Regulator</option>
-								<option value="">Press/Media</option>
-								<option value="">Vendor/Contractor</option>
-								<option value="">Legislative Staff Member</option>
-								<option value="">Job Seeker</option>
-								<option value="">Court Clerk</option>
-								<option value="">Procecutor/Probation officer</option>
-								<option value="">Investigator</option>
-								
-							</select>
-							<select name="" id="" class="custom-select">
-								<option value="">I want to ...</option>
-							</select>
-							<button type="button" class="footer-btn">GET STARTED</button>
+							<form>
+								<select name="help" id="" class="custom-select">
+									<option  class="selected">I am a ...</option>
+									<option value="">Bank customer</option>
+									<option value="">Banker</option>
+									<option value="">Consumer</option>
+									<option value="">Small Business Owner</option>
+									<option value="">Analyst/Researcher/Student</option>
+									<option value="">Legal Professional</option>
+									<option value="">Bank Regulator</option>
+									<option value="">Press/Media</option>
+									<option value="">Vendor/Contractor</option>
+									<option value="">Legislative Staff Member</option>
+									<option value="">Job Seeker</option>
+									<option value="">Court Clerk</option>
+									<option value="">Procecutor/Probation officer</option>
+									<option value="">Investigator</option>
+									
+								</select>
+								<select name="" id="" class="custom-select">
+									<option value="">I want to ...</option>
+								</select>
+								<button type="button" class="footer-btn">GET STARTED</button>
+							</form>
 							<div class="socials">
 								<a href="#"><i class="fab fa-facebook"></i></a>
 								<a href="#"><i class="fab fa-twitter"></i></a>
@@ -97,7 +99,7 @@
 						</div>
 					</div> <!--end of main nav div-->
 
-				<span onclick="openNav()" class="openbtn"> <img src="img/icon-hamburger.svg"> </span>
+				<span onclick="openNav()" class="openbtn"> <i class="fas fa-bars"></i> </span>
 			</nav>
 		</header>	
 		<main>
@@ -143,9 +145,9 @@
 				<p>The Federal Deposit Insurance Corporation (FDIC) is an independent agency created by the Congress to maintain stability and public confidence in the nation’s financial system. The FDIC insures deposits; examines and supervises financial institutions for safety, soundness, and consumer protection; makes large and complex financial institutions resolvable; and manages receiverships.</p>
 				<button type="button" class="btn about-btn">LEARN MORE</button>
 			</section>
-			<section class="categories" id="accordion">
+			<section class="categories" id="accordion1">
 				<a href="#bankers" class="section-toggle-link" data-toggle="collapse"> <h3> BANKERS </h3> </a>
-				<div id="bankers"  class="collapse show" data-parent="#accordion">
+				<div id="bankers"  class="collapse show" data-parent="#accordion1">
 					<div class="section-intro">
 						<img src="img/icon-bankers.svg" class="icons">
 						<h2>Bankers</h2>
@@ -160,7 +162,7 @@
 					</div>
 				</div>
 				<a href="#consumers" class="section-toggle-link" data-toggle="collapse"> <h3>CONSUMERS </h3> </a>
-				<div id="consumers" class="collapse" data-parent="#accordion">
+				<div id="consumers" class="collapse" data-parent="#accordion1">
 					<div class="section-intro">
 						<img src="img/icon-consumers.svg" class="icons">
 						<p>The FDIC provides tools, education, and news updates to help consumers make informed decisions and protect their assets.</p>
@@ -177,7 +179,7 @@
 				</div>
 		
 				<a href="#analyst" class="section-toggle-link" data-toggle="collapse"><h3>ANALYST</h3> </a>
-				<div id="analyst" class="collapse" data-parent="#accordion">
+				<div id="analyst" class="collapse" data-parent="#accordion1">
 					<div class="section-intro">
 						<img src="img/icon-analysts.svg" class="icons">
 						<p>The FDIC is proud to be a pre-eminent source of U.S. banking industry research for analysts, including quarterly banking profiles, working papers, and state banking performance data.</p>
@@ -346,28 +348,30 @@
 				<hr class="line">
 				<div class="footer-help">
 					<h3>HOW CAN WE HELP YOU?</h3>
-					<select name="" id="" class="pb-5">
-						<option value="" class="active">I am a ...</option>
-						<option value="">Bank customer</option>
-						<option value="">Banker</option>
-						<option value="">Consumer</option>
-						<option value="">Small Business Owner</option>
-						<option value="">Analyst/Researcher/Student</option>
-						<option value="">Legal Professional</option>
-						<option value="">Bank Regulator</option>
-						<option value="">Press/Media</option>
-						<option value="">Vendor/Contractor</option>
-						<option value="">Legislative Staff Member</option>
-						<option value="">Job Seeker</option>
-						<option value="">Court Clerk</option>
-						<option value="">Procecutor/Probation officer</option>
-						<option value="">Investigator</option>
-						
-					</select>
-					<select name="" id="">
-						<option value="">I want to ...</option>
-					</select>
-					<button type="button" class="footer-btn">GET STARTED</button>
+					<form>
+						<select name="" id="" class="pb-5 form-control">
+							<option value="" class="selected">I am a ...</option>
+							<option value="">Bank customer</option>
+							<option value="">Banker</option>
+							<option value="">Consumer</option>
+							<option value="">Small Business Owner</option>
+							<option value="">Analyst/Researcher/Student</option>
+							<option value="">Legal Professional</option>
+							<option value="">Bank Regulator</option>
+							<option value="">Press/Media</option>
+							<option value="">Vendor/Contractor</option>
+							<option value="">Legislative Staff Member</option>
+							<option value="">Job Seeker</option>
+							<option value="">Court Clerk</option>
+							<option value="">Procecutor/Probation officer</option>
+							<option value="">Investigator</option>
+							
+						</select>
+						<select name="" id="" class="form-control">
+							<option value="">I want to ...</option>
+						</select>
+						<button type="button" class="footer-btn">GET STARTED</button>
+				</form>
 				</div>
 			</footer>
 			<div class="footer-links">

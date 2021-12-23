@@ -14,17 +14,13 @@ html, body {
 	background-color: var(--primaryColor);
 	height: 50px;
 }
-
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
+.navbar-logo {
+	position: fixed;
+	top: 0;
+	color: black;
 }
+
+
 .header-cards {
 	margin: 10px 15px 30px 15px;
 }
@@ -49,7 +45,7 @@ html, body {
 .slide-body {
 	background: linear-gradient(white, black);
 	opacity: 0.8;
-	padding: 30px 0;
+	padding: 20px 0;
 	font-size: 0.875rem;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -119,7 +115,7 @@ html, body {
 }
 .section-card img{
 	margin: 0 auto;
-	width: 400px;
+	width: 100%;
 	padding-bottom: 20px;
 }
 .section-card a {
@@ -238,7 +234,7 @@ select {
 .footer-links a  {
 	color: white;
 	text-decoration: none;
-	padding: 0 10px;
+	padding: 10px;
 }
 
 .footer-links a:hover {
@@ -260,6 +256,7 @@ select {
   background-color: var(--primaryColor); /* Black fallback color */
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+	padding-bottom: 20px;
 }
 
 /* Position the content inside the overlay */
@@ -276,6 +273,13 @@ select {
   color: white;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
+}
+.openbtn {
+	margin-left: 95%;
+}
+.fa-bars {
+	color: white;
+	font-size: 30px;
 }
 .nav-links {
 	font-size: 1.5rem;
@@ -326,7 +330,7 @@ select {
 .overlay .closebtn {
   position: absolute;
 	right: 10px;
-	top: -10px;
+	top: 10px;
   font-size: 40px;
 	font-weight: bolder;
 }
@@ -337,4 +341,14 @@ select {
 	.closebtn, .openbtn {
 		display: none;
 	}
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
