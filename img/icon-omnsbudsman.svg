@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="79px" viewBox="0 0 83 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>fdic-omnsbudsman-icon-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.522123288 0.359982927 32.8734247 0.359982927 32.8734247 32.6537634 0.522123288 32.6537634"></polygon>
+        <polygon id="path-3" points="0 74 65.4213699 74 65.4213699 0.273439024 0 0.273439024"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-Visual-/Omsbudsman-Copy">
+            <g id="fdic-omnsbudsman-icon-white">
+                <rect id="Rectangle" x="0" y="0" width="83" height="79"></rect>
+                <polygon id="Fill-1" fill="#FFFFFF" points="61 13 54 13 54 6 56.6247855 6 56.6247855 10.375 61 10.375"></polygon>
+                <polygon id="Fill-2" fill="#FFFFFF" points="13 3 13 71 56.0002857 71 56.0002857 68.2246564 15.785875 68.2246564 15.785875 5.77534356 55.993 5.77534356 61.2132143 10.9749166 61.2132143 24.6266311 64 24.6266311 64 9.8254036 57.1477857 3"></polygon>
+                <polygon id="Fill-3" fill="#FFFFFF" points="21 60 49 60 49 57 21 57"></polygon>
+                <polygon id="Fill-4" fill="#FFFFFF" points="21 48 43 48 43 45 21 45"></polygon>
+                <polygon id="Fill-5" fill="#FFFFFF" points="21 42 43 42 43 39 21 39"></polygon>
+                <polygon id="Fill-6" fill="#FFFFFF" points="21 54 46 54 46 51 21 51"></polygon>
+                <polygon id="Fill-7" fill="#FFFFFF" points="21 36 46 36 46 33 21 33"></polygon>
+                <polygon id="Fill-8" fill="#FFFFFF" points="21 30 49 30 49 27 21 27"></polygon>
+                <polygon id="Fill-9" fill="#FFFFFF" points="22 24 40 24 40 21 22 21"></polygon>
+                <g id="Group-16" transform="translate(13.000000, 3.000000)">
+                    <g id="Group-12" transform="translate(32.547945, 24.365854)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-11"></g>
+                        <path d="M16.6984521,3.12144634 C9.30373973,3.12144634 3.28869863,9.12537317 3.28869863,16.5055195 C3.28869863,23.8883732 9.30373973,29.8923 16.6984521,29.8923 C24.0922603,29.8923 30.1073014,23.8883732 30.1073014,16.5055195 C30.1073014,9.12537317 24.0922603,3.12144634 16.6984521,3.12144634 M16.6984521,32.6537634 C7.77941096,32.6537634 0.522123288,25.4080805 0.522123288,16.5055195 C0.522123288,7.6020561 7.77941096,0.359982927 16.6984521,0.359982927 C25.6174932,0.359982927 32.8738767,7.6020561 32.8738767,16.5055195 C32.8738767,25.4080805 25.6174932,32.6537634 16.6984521,32.6537634" id="Fill-10" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-14"></g>
+                    <polygon id="Fill-13" fill="#FFFFFF" mask="url(#mask-4)" points="47.8635616 60.6312683 50.630137 60.6312683 50.630137 55.6389756 47.8635616 55.6389756"></polygon>
+                    <path d="M48.1285562,62.0126317 L48.1285562,70.1228512 C48.1285562,70.7374122 48.6294329,71.2391683 49.2460356,71.2391683 C49.8635425,71.2391683 50.3653233,70.7374122 50.3653233,70.1228512 L50.3653233,62.0126317 L48.1285562,62.0126317 Z M49.2460356,73.9997293 C47.1042,73.9997293 45.3619808,72.2607293 45.3619808,70.1228512 L45.3619808,59.2511683 L53.1309945,59.2511683 L53.1309945,70.1228512 C53.1309945,72.2607293 51.3878712,73.9997293 49.2460356,73.9997293 L49.2460356,73.9997293 Z" id="Fill-15" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

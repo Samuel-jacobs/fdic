@@ -65,10 +65,10 @@ html, body {
 	border: 1px solid var(--primaryColor);
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease; 
 }
 
-.active, .dot:hover {
+.header-cards .active, .dot:hover {
   background-color: var(--primaryColor);
 }
 
@@ -173,7 +173,7 @@ a .section-title {
 	padding: 30px;
 }
 .news-item p {
-color	: #736539;
+	color	: #736539;
 }
 .news-item a {
 	color: var(--primaryColor);

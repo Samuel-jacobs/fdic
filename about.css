@@ -1,0 +1,167 @@
+.hero {
+	height: 200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 5px;
+}
+.about-content  {
+	text-align: center;
+	padding: 20px  30px;
+}
+
+.about-content h3 {
+	color: var(--primaryColor);
+}
+
+.leadership {
+	background-color: var(--primaryColor);
+	color: white;
+	padding: 15px 10px;
+}
+ul {
+	list-style-position: inside;
+	padding-left: 0;
+}
+li {
+	padding: 10px 0;
+}
+
+.leadership li a {
+	color: white;
+	text-decoration: none;
+}
+.leadership li a:hover {
+	text-decoration: underline;
+}
+
+.careers {
+	padding: 20px 15px;
+}
+.careers h3 {
+	color: var(--primaryColor);
+	text-align: center;
+}
+
+.careers a {
+	color: var(--primaryColor);
+	text-decoration: none;
+}
+.careers a:hover {
+	text-decoration: underline;
+}
+
+.initiatives {
+	background-color: var(--primaryColor);
+	color: white;
+	padding: 20px 15px;
+}
+
+.initiatives a {
+	color: white;
+	text-decoration: none;
+}
+
+.initiatives a:hover {
+	text-decoration: underline;
+}
+
+.history img {
+	height: 180px;
+	width: 100%;
+}
+
+.history h3 {
+	color: var(--primaryColor);
+}
+
+.history-content {
+	padding: 0 15px;
+}
+
+.history a {
+	color: var(--primaryColor);
+	text-decoration: none;
+}
+
+.history a:hover {
+	text-decoration: underline;
+}
+
+.carousel  {
+	position: relative;
+}
+.additional-links .carousel-indicators {
+	bottom: -50px;
+}
+
+.additional-links .carousel-indicators li {
+	cursor: pointer;
+  height: 10px;
+  width: 25px;
+  background-color: var(--primaryColor);
+	border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; 
+}
+
+.additional-links .carousel-indicators li:hover {
+	background-color: white;
+}
+
+.additional-links {
+	background-color: var(--primaryColor);
+	padding: 20px 15px;
+	height: 300px;
+	color: white;
+	text-align: center;
+}
+
+.additional-links .carousel-item {
+	text-align: center;
+}
+
+.additional-links a {
+	padding: 10px 0;
+	color: white;
+	display: block;
+}
+
+.featured {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 420px;
+}
+
+.featured h3 {
+	color: var(--primaryColor);
+}
+.featured img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+.featured .carousel-indicators {
+	bottom: -60px;
+}
+.featured .carousel-indicators li {
+	cursor: pointer;
+  height: 10px;
+  width: 25px;
+  background-color: white;
+	border: 1px solid var(--primaryColor);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; 
+}
+
+.featured .carousel-indicators li:hover {
+	background-color: var(--primaryColor);
+}
+.featured p {
+	color	: #736539;
+}
+.featured a {
+	color: var(--primaryColor);
+}
