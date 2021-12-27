@@ -1,5 +1,6 @@
 :root {
 	--primaryColor: rgb(0, 50, 86);
+	--secondaryColor: #736539;
 }
 html, body {
 	margin: 0;

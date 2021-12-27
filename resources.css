@@ -1,0 +1,167 @@
+.resources-hero {
+	height: 200px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 5px;
+}
+h3 {
+	text-align: center;
+}
+ul {
+	list-style-position: inside;
+	padding-left: 0;
+}
+li {
+	padding: 10px 0;
+}
+
+.resources-content {
+	text-align: center;
+	padding: 20px 30px;
+}
+.resources h3 {
+	color: var(--primaryColor);
+	font-weight: lighter;
+}
+
+.deposit-insurance {
+	background-color: var(--primaryColor);
+	color: white;
+	padding: 20px 15px;
+}
+
+.deposit-insurance a {
+	color: white;
+}
+
+.deposit-insurance a:hover {
+	color: var(--secondaryColor);
+}
+
+.btn1 {
+	background-color: var(--secondaryColor);
+	color: white;
+	padding: 10px 20px;
+}
+
+.btn1:hover {
+	color: white;
+	opacity: 0.9;
+}
+
+.supervision {
+	padding: 20px 15px;
+}
+.supervision h3 {
+	color: var(--primaryColor);
+}
+
+.supervision a {
+	color: var(--primaryColor);
+}
+
+.btn2 {
+	background-color: var(--primaryColor);
+	color: white;
+	padding: 10px 20px;
+}
+
+.btn2:hover {
+	color: white;
+	opacity: 0.8;
+}
+
+.laws {
+	background-color: var(--primaryColor);
+	color: white;
+	padding: 20px 15px;
+}
+.laws a {
+	color: white;
+}
+.laws a:hover {
+	color: var(--secondaryColor);
+}
+
+.resolutions {
+	padding: 20px 15px;
+}
+
+.resolutions h3 {
+	color: var(--primaryColor);
+}
+.resolutions a {
+	color: var(--primaryColor);
+}
+.data-tools {
+	background-color: var(--primaryColor);
+	padding: 20px 15px;
+	color: white;
+}
+
+.data-tools a{
+	color: white;
+}
+
+.data-tools a:hover {
+	color: var(--secondaryColor);
+}
+
+.carousel {
+	position: relative;
+}  
+ .carousel-indicators {
+	bottom: -70px;
+}
+.additional-links {
+	height: 400px;
+	padding: 30px 25px;
+	color: var(--primaryColor);
+}
+.additional-links .carousel-item a {
+	color: var(--primaryColor);
+}
+.carousel-indicators li {
+	cursor: pointer;
+  height: 10px;
+  width: 25px;
+  background-color: white;
+	border: 1px solid var(--primaryColor);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; 
+}
+
+.carousel-indicators .active, li:hover {
+	background-color: var(--primaryColor);
+}
+
+.additional-links .carousel-item {
+	text-align: center;
+}
+.additional-links .carousel-indicators a {
+	display: block;
+}
+
+.featured {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 450px;
+}
+
+.featured h3 {
+	color: var(--primaryColor);
+}
+.featured img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+
+.featured p {
+	color	: #736539;
+}
+.featured a {
+	color: var(--primaryColor);
+}
