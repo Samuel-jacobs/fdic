@@ -1,9 +1,14 @@
-.resources-hero {
+*{
+	font-weight: lighter;
+	
+}
+.analysis-hero {
 	height: 200px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 5px;
 }
+
 h3 {
 	text-align: center;
 }
@@ -15,102 +20,60 @@ li {
 	padding: 10px 0;
 }
 
-.resources-content {
+.analysis-content {
 	text-align: center;
 	padding: 20px 30px;
 }
-.resources h3 {
+.analysis h3 {
 	color: var(--primaryColor);
 	font-weight: lighter;
 }
 
-.deposit-insurance {
+.financial-research {
 	background-color: var(--primaryColor);
 	color: white;
 	padding: 20px 15px;
+
 }
 
-.deposit-insurance a {
+.financial-research a {
 	color: white;
 }
-
-.deposit-insurance a:hover {
+.financial-research a:hover {
 	color: var(--secondaryColor);
+	text-decoration: underline;
 }
 
-.btn1 {
-	background-color: var(--secondaryColor);
-	color: white;
-	padding: 10px 20px;
-}
-
-.btn1:hover {
-	color: white;
-	opacity: 0.9;
-}
-
-.supervision {
+.banking-profile {
 	padding: 20px 15px;
+
 }
-.supervision h3 {
+.banking-profile h3 {
 	color: var(--primaryColor);
 }
 
-.supervision a {
+.banking-profile a {
 	color: var(--primaryColor);
 }
 
-.btn2 {
-	background-color: var(--primaryColor);
-	color: white;
-	padding: 10px 20px;
-}
-
-.btn2:hover {
-	color: white;
-	opacity: 0.8;
-}
-
-.laws {
+.america-banks {
 	background-color: var(--primaryColor);
 	color: white;
 	padding: 20px 15px;
 }
-.laws a {
+
+.america-banks a {
 	color: white;
-}
-.laws a:hover {
-	color: var(--secondaryColor);
-}
 
-.resolutions {
-	padding: 20px 15px;
 }
-
-.resolutions h3 {
-	color: var(--primaryColor);
-}
-.resolutions a {
-	color: var(--primaryColor);
-}
-.data-tools {
-	background-color: var(--primaryColor);
-	padding: 20px 15px;
-	color: white;
-}
-
-.data-tools a{
-	color: white;
-}
-
-.data-tools a:hover {
+.america-banks a:hover {
 	color: var(--secondaryColor);
 }
 
 .carousel {
 	position: relative;
 }  
- .carousel-indicators {
+.carousel-indicators {
 	bottom: -70px;
 }
 .additional-links {
@@ -118,8 +81,11 @@ li {
 	padding: 30px 25px;
 	color: var(--primaryColor);
 }
-.additional-links .carousel-item a {
+.additional-links .carousel-item h5 a {
 	color: var(--primaryColor);
+}
+.additional-links .carousel-item p a {
+	color: black;
 }
 .carousel-indicators li {
 	cursor: pointer;
@@ -162,7 +128,7 @@ li {
 }
 
 .featured p {
-	color	: #736539;
+	color	: var(--secondaryColor)
 }
 .featured a {
 	color: var(--primaryColor);

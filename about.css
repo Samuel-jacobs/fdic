@@ -158,8 +158,11 @@ li {
   transition: background-color 0.6s ease; 
 }
 
-.featured .carousel-indicators .active, li:hover {
+.featured .carousel-indicators .active{
 	background-color: var(--primaryColor);
+}
+.featured .carousel-indicators li:hover {
+	background-color: lightgrey;
 }
 .featured p {
 	color	: #736539;
