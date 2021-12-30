@@ -1,5 +1,13 @@
+.breadcrumb {
+	margin-top: 40px;
+	background-color: white;
+	padding: 0 10px;
+}
+.breadcrumb a {
+	color: var(--primaryColor);
+}
 .resources-hero {
-	height: 200px;
+	height: 150px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 5px;

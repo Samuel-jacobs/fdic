@@ -1,3 +1,11 @@
+.breadcrumb {
+	margin-top: 40px;
+	background-color: white;
+	padding: 0 10px;
+}
+.breadcrumb a {
+	color: var(--primaryColor);
+}
 .hero {
 	height: 200px;
 	width: 100%;
@@ -114,9 +122,9 @@ li {
 .additional-links {
 	background-color: var(--primaryColor);
 	padding: 20px 15px;
-	height: 320px;
 	color: white;
 	text-align: center;
+	height: 360px;
 }
 
 .additional-links .carousel-item {

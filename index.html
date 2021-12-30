@@ -11,9 +11,13 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-		<!--font awesome-->
+		<!--fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 		
-		
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
 		<!--main css-->
 	<link rel="stylesheet" href="main.css">
 	</head>
@@ -22,44 +26,44 @@
 	<body>
 		<header>
 			<nav id="navbar" class="navbar fixed-top">
-				<a href="#" class="navbar-logo"><img src="img/fdic-logo.svg"> </a>	
+				<a href="index.html" class="navbar-logo"><img src="img/fdic-logo.svg" height="60px" width="60px"> </a>	
 					<div id="myNav" class="overlay">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 						<div class="overlay-content" id="accordion">
 							<div class="nav-content">
-								<a href="#about" class="nav-links"  data-toggle="collapse">About</a>
+								<a href="#about" class="nav-links"  data-toggle="collapse">About <i class="fa fa-angle-right"></i></a>
 								<div id="about" class="collapse nav-text" data-parent="#accordion">
 									<p>The Federal Deposit Insurance Corporation (FDIC) is an independent agency created by the Congress to maintain stability and public confidence in the nation’s financial system. Learn about the FDIC’s mission, leadership, history, career opportunities, and more. </p>
 
-									<a href="about.html">Learn More About the FDIC </a>
+									<a href="about.html">Learn More About the FDIC ></a>
 								</div>
 							</div>
 
 							<div class="nav-content">
-								<a href="#resources" class="nav-links" data-toggle="collapse">Resources</a>
+								<a href="#resources" class="nav-links" data-toggle="collapse">Resources <i class="fa fa-angle-right"></i></a>
 								<div id="resources" class="collapse nav-text" data-parent="#accordion">
 									<p>The FDIC provides a wealth of resources for consumers, bankers, analysts, and other stakeholders. Browse our collection of financial education materials, data tools, documentation of laws and regulations, information on important initiatives, and more.</p>
 
-									<a href="resources.html">Additional FDIC Resources</a>
+									<a href="resources.html">Additional FDIC Resources ></a>
 
 								</div>
 							</div>
 
 							<div class="nav-content">
-								<a href="#analysis" class="nav-links" data-toggle="collapse">Analysis</a>
+								<a href="#analysis" class="nav-links" data-toggle="collapse">Analysis <i class="fa fa-angle-right"></i></a>
 								<div id="analysis" class="collapse nav-text" data-parent="#accordion">
 									<p>The FDIC is proud to be a pre-eminent source of U.S. banking industry research, including quarterly banking profiles, working papers, and state banking performance data. Browse our extensive research tools and reports.</p>
 
-									<a href="#">More FDIC Analysis</a>
+									<a href="#">More FDIC Analysis ></a>
 								</div>
 							</div>
 
 							<div class="nav-content">
-								<a href="#news" class="nav-links" data-toggle="collapse">News</a>
+								<a href="#news" class="nav-links" data-toggle="collapse">News <i class="fa fa-angle-right"></i></a>
 								<div id="news" class="collapse nav-text" data-parent="#accordion">
 									<p>The FDIC publishes regular updates on news and activities. Keep up with FDIC announcements, read speeches and testimony on the latest banking issues, learn about policy changes for banks, and get the details on upcoming conferences and events. </p>
 
-									<a href="#">Find More FDIC News</a>
+									<a href="#">Find More FDIC News ></a>
 								</div>
 							</div> <!--end of nav-content div-->
 						</div> <!--end of overlay content div-->
@@ -100,7 +104,6 @@
 							</div>
 						</div>
 					</div> <!--end of main nav div-->
-
 				<span onclick="openNav()" class="openbtn"> <i class="fas fa-bars"></i> </span>
 			</nav>
 		</header>	
@@ -108,32 +111,35 @@
 
 		<main>
 			<section class="header-cards">
-				<div class="slideshow-container">
-					<div class="events mySlides">
-						<img src="img/boardroom.jpg" class="slide-image" alt="boardroom chair image">
-						<div class="slide-body">
-							<p> <span class="h-color">EVENT </span> <br>
-							FDIC board meeting</p>
-							<p>The FDIC Board of Directors will meet at 10:00 a.m. ET on Tuesdauy, December 14, 2021. The event will be webcast live.</p>
+				<div id="carousel1" class="carousel slide" data-interval="false" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="events mySlides carousel-item active">
+							<img src="img/boardroom.jpg" class="slide-image" alt="boardroom chair image">
+							<div class="slide-body">
+								<p> <span class="h-color">EVENT </span> <br>
+								FDIC board meeting</p>
+								<p>The FDIC Board of Directors will meet at 10:00 a.m. ET on Tuesday, December 14, 2021. The event will be webcast live.</p>
+							</div>
+						</div>
+						<div class="announcement mySlides">
+							<img src="img/announcement.png" class="slide-image" alt="anouncemnt image">
+							<div class="slide-body">
+								<p> <span class="h-color">ANNOUNCEMENT </span> <br>
+								FDIC chairman jelena McWilliams Announces New Mission-Driven Bank fund</p>
+							</div>
+						</div>
+						<div class="initiative mySlides">
+							<img src="img/initiative.jpg" class="slide-image" alt="initiative image">
+							<div class="slide-body">
+								<p> <span class="h-color">INITIATIVE  </span> <br>
+								#GetBanked</p>
+								<p>the FDIC public awareness campaign about the benefits of opening a bank account</p>
+							</div>
 						</div>
 					</div>
-					<div class="announcement mySlides">
-						<img src="img/announcement.png" class="slide-image" alt="anouncemnt image">
-						<div class="slide-body">
-							<p> <span class="h-color">ANNOUNCEMENT </span> <br>
-							FDIC chairman jelena McWilliams Announces New Mission-Driven Bank fund</p>
-						</div>
-					</div>
-					<div class="initiative mySlides">
-						<img src="img/initiative.jpg" class="slide-image" alt="initiative image">
-						<div class="slide-body">
-							<p> <span class="h-color">INITIATIVE  </span> <br>
-							#GetBanked</p>
-							<p>the FDIC public awareness campaign about the benefits of opening a bank account</p>
-						</div>
-					</div>
+					 
 				</div>
-				<div style="text-align:center">
+				<div style="text-align:center" class="indicators">
 					<span class="dot" onclick="currentSlide(1)"></span>
 					<span class="dot" onclick="currentSlide(2)"></span>
 					<span class="dot" onclick="currentSlide(3)"></span>
@@ -145,12 +151,12 @@
 			<hr class="line-break">
 			
 			<section class="home-about">
-				<h1>About the FDIC</h1>
+				<h3>About the FDIC</h3>
 				<p>The Federal Deposit Insurance Corporation (FDIC) is an independent agency created by the Congress to maintain stability and public confidence in the nation’s financial system. The FDIC insures deposits; examines and supervises financial institutions for safety, soundness, and consumer protection; makes large and complex financial institutions resolvable; and manages receiverships.</p>
 				<button type="button" class="btn about-btn">LEARN MORE</button>
 			</section>
 			<section class="categories" id="accordion1">
-				<a href="#bankers" class="section-toggle-link" data-toggle="collapse"> <h3> BANKERS </h3> </a>
+				<a href="#bankers" class="section-toggle-link" data-toggle="collapse"> <h3> BANKERS <i class="fa fa-angle-right"></i></h3> </a>
 				<div id="bankers"  class="collapse show" data-parent="#accordion1">
 					<div class="section-intro">
 						<img src="img/icon-bankers.svg" class="icons">
@@ -165,7 +171,7 @@
 						<p class="section-text pt-3">The FDIC today announced the launch of a new Mission-Driven Bank Fund, a capital investment vehicle being developed by the FDIC to support insured Minority Depository Institutions (MDIs) and Community Development Financial Institutions (CDFIs).</p>
 					</div>
 				</div>
-				<a href="#consumers" class="section-toggle-link" data-toggle="collapse"> <h3>CONSUMERS </h3> </a>
+				<a href="#consumers" class="section-toggle-link" data-toggle="collapse"> <h3>CONSUMERS <i class="fa fa-angle-right"></i></h3> </a>
 				<div id="consumers" class="collapse" data-parent="#accordion1">
 					<div class="section-intro">
 						<img src="img/icon-consumers.svg" class="icons">
@@ -182,7 +188,7 @@
 					</div>
 				</div>
 		
-				<a href="#analyst" class="section-toggle-link" data-toggle="collapse"><h3>ANALYST</h3> </a>
+				<a href="#analyst" class="section-toggle-link" data-toggle="collapse"><h3>ANALYST <i class="fa fa-angle-right"></i></h3> </a>
 				<div id="analyst" class="collapse" data-parent="#accordion1">
 					<div class="section-intro">
 						<img src="img/icon-analysts.svg" class="icons">
@@ -207,126 +213,127 @@
 						<h4>21st Chairman of the FDIC</h4>
 						<p>Jelena McWilliams was sworn in as the 21st Chairman of the FDIC on June 5, 2018. Previously, Ms. McWilliams was executive vice president, chief legal officer, and corporate secretary for a regional bank; chief counsel on the U.S. Senate Banking, Housing and Urban Affairs Committee; assistant chief counsel on the U.S. Senate Committee on Small Business and Entrepreneurship; and an attorney at the Federal Reserve Board of Governors and in private practice. One of Chairman McWilliams' key initiatives at the FDIC is Trust through Transparency to make the FDIC more accessible, understandable, and responsive. </p>
 
-						<a href="#">Learn More About the Chairman</a>
-						<a href="#">Speeches & Testimony </a>
-						<a href="#">Invite the Chairman to an Event</a>
+						<a href="#">Learn More About the Chairman ></a>
+						<a href="#">Speeches & Testimony ></a>
+						<a href="#">Invite the Chairman to an Event ></a>
 					</div>
 				</div>
 				<div class="jelena-visits">
-					<h1>FDIC Chairman State Visits</h1>
-					<p>As part of her Trust through Transparency initiative, Chairman McWilliams is meeting with stakeholders in every state. In her first 18 months as Chairman, she visited bankers, state officials, community groups and other stakeholders in 30 states. Since the pandemic, Chairman McWilliams has continued state visits virtually. Click on states in the map below to follow her travels. </p>
+					<h3>FDIC Chairman State Visits</h3>
+					<p class="pt-3">As part of her <i>Trust through Transparency </i>initiative, Chairman McWilliams is meeting with stakeholders in every state. In her first 18 months as Chairman, she visited bankers, state officials, community groups and other stakeholders in 30 states. Since the pandemic, Chairman McWilliams has continued state visits virtually. Click on states in the map below to follow her travels. </p>
 
 					<ul>
 						<li>
-							<a href="#"> Learn About Trust through Transparency </a>
+							<a href="#"> Learn About <i>Trust through Transparency</i> ></a>
 						</li>
 						<li>
-							<a href="#"> State Economic Profile </a>
+							<a href="#"> State Economic Profile ></a>
 						</li>
 					</ul>
 				</div>
 			</section>
 
-			<section class="news">
+			<section class="news home-slides">
 				<div class="heading pb-5">
 					<img src="img/icon-news.svg" class="icons text-center">
 					<h1 class="title-color">Latest News</h1>
 				</div>
 				
 				
-					<div class="slideshow-container">
-						<div class="news-item mySlides1">
+				<div id="carousel2" class="carousel slide" data-interval="false" data-ride="carousel">
+					<div class="carousel-inner slideshow-container">
+						<div class="carousel-item news-item active">
 							<img src="img/event-news.jpg" class="news-image">
 							<p class="pt-4">EVENT / November 30, 2021</p>
 							<a href="#">Quarterly Banking Profile</a>
-						</div>
-						<div class="news-item mySlides1">
+						</div>	
+						<div class="carousel-item news-item">
 							<img src="img/credit-cards.jpg" class="news-image">
 							<p class="pt-4">CONSUMER NEWS / November 8, 2021</p>
 							<a href="#">Using The Right Card</a>
 						</div>
-						<div class="news-item mySlides1">
+						<div class="carousel-item news-item">
 							<img src="img/cybersecurity.jpg" class="news-image">
 							<p class="pt-4">CONSUMER NEWS / October 8, 2021</p>
 							<a href="#">Cybersecurity is Key</a>
 						</div>
-						<div class="news-item mySlides1">
+						<div class="carousel-item news-item">
 							<img src="img/innovation.jpg" class="news-image">
 							<p class="pt-4">INNOVATION / september 13, 2021</p>
 							<a href="#">FDITeCH selects Three winning teams in tech sprint to reach thre unbanked</a>
-						</div>
-					</div>
-					<div style="text-align:center">
-						<span class="dot" onclick="currentSlides(1)"></span>
-						<span class="dot" onclick="currentSlides(2)"></span>
-						<span class="dot" onclick="currentSlides(3)"></span>
-						<span class="dot" onclick="currentSlides(4)"></span>
-					</div>
-			
+						</div>	
+					</div>	 
+					<ol class="carousel-indicators">
+						<li data-target="#carousel2" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel2" data-slide-to="1"></li>
+						<li data-target="#carousel2" data-slide-to="2"></li>
+						<li data-target="#carousel2" data-slide-to="3"></li>
+					</ol>
+				</div>
 			</section>
 			<hr class="line-break">
 			
-			<section class="data">
+			<section class="data home-slides">
 				<div class="heading pb-4">
 					<img src="img/icon-data-insights.svg" class="icons">
 					<h1 class="title-color">Data & Insights</h1>
 				</div>
-				<div class="slideshow-container">
-					<div class="data-item mySlides2">
-						<img src="img/income.jpg" class="news-image">
-						<div class="data-text">
-							<h2 class="title-color">Quarterly Net Income </h2>
-							<p>The banking industry reported quarterly net income of $69.5 billion during the third quarter, a 35.9% increase from a year ago</p>
+				<div id="carousel3" class="carousel slide" data-interval="false" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item data-item active">
+							<img src="img/income.jpg" class="news-image">
+							<div class="data-text">
+								<h2 class="title-color">Quarterly Net Income </h2>
+								<p>The banking industry reported quarterly net income of $69.5 billion during the third quarter, a 35.9% increase from a year ago</p>
+							</div>
+						</div>
+						<div class="carousel-item data-item">
+							<img src="img/insured-banks.jpg" class="news-image">
+							<div class="data-text">
+								<h2 class="title-color">Number of Insured Banks </h2>
+								<p>For the 4,914 commercial banks and saving institutions, aggregate net income totaled $69.5 billion, an increase of 35.6% from a year ago</p>
+							</div>
+						</div>
+						<div class="carousel-item data-item">
+							<img src="img/dif-funding.jpg" class="news-image">
+							<div class="data-text">
+								<h2 class="title-color">DIF funding </h2>
+								<p>The Deposit Insurance Fund (DIF) balance was $121.9 boillion on september 30, up to $1.4 billion from the eend of last quarter</p>
+							</div>
+						</div>
+						<div class="carousel-item data-item">
+							<div class="data-text">
+								<img src="img/community.jpg" class="news-image">
+								<h2 class="title-color">Community Bank Growth </h2>
+								<p>Community banks reported quarterly net income of $8.6 billion in the third quarter, an increase of 19.6% from a year ago</p>
+							</div>
+						</div>
+						<div class="carousel-item data-item">
+							<img src="img/reserve.jpg" class="news-image">
+							<div class="data-text">
+								<h2 class="title-color">DIF Reserve Ratio </h2>
+								<p>The reserve ratio-the amount in the DIF relative to insured deposites-remained at 1.27% for the third quarter. A fund Resolution Plan was adopted in September 2020.</p>
+							</div>
+						</div>
+						<div class="carousel-item data-item">
+							<img src="img/problem-banks.jpg" class="news-image">
+							<div class="data-text">
+								<h2 class="title-color">Number of "problem Banks"</h2>
+								<p>The number of banks on the FDIC's "Problem Bank List" declined to 46 during the quarter</p>
+							</div>
 						</div>
 					</div>
-					<div class="data-item mySlides2">
-						<img src="img/insured-banks.jpg" class="news-image">
-						<div class="data-text">
-							<h2 class="title-color">Number of Insured Banks </h2>
-							<p>For the 4,914 commercial banks and saving institutions, aggregate net income totaled $69.5 billion, an increase of 35.6% from a year ago</p>
-						</div>
-					</div>
-					<div class="data-item mySlides2">
-						<img src="img/dif-funding.jpg" class="news-image">
-						<div class="data-text">
-							<h2 class="title-color">DIF funding </h2>
-							<p>The Deposit Insurance Fund (DIF) balance was $121.9 boillion on september 30, up to $1.4 billion from the eend of last quarter</p>
-						</div>
-					</div>
-					<div class="data-item mySlides2">
-						<div class="data-text">
-							<img src="img/community.jpg" class="news-image">
-							<h2 class="title-color">Community Bank Growth </h2>
-							<p>Community banks reported quarterly net income of $8.6 billion in the third quarter, an increase of 19.6% from a year ago</p>
-						</div>
-					</div>
-					<div class="data-item mySlides2">
-						<img src="img/reserve.jpg" class="news-image">
-						<div class="data-text">
-							<h2 class="title-color">DIF Reserve Ratio </h2>
-							<p>The reserve ratio-the amount in the DIF relative to insured deposites-remained at 1.27% for the third quarter. A fund Resolution Plan was adopted in September 2020.</p>
-						</div>
-					</div>
-					<div class="data-item mySlides2">
-						<img src="img/problem-banks.jpg" class="news-image">
-						<div class="data-text">
-							<h2 class="title-color">Number of "problem Banks"</h2>
-							<p>The number of banks on the FDIC's "Problem Bank List" declined to 46 during the quarter</p>
-						</div>
-					</div>
-				</div>
-
-				<div style="text-align:center">
-					<span class="dot" onclick="activeSlide(1)"></span>
-					<span class="dot" onclick="activeSlide(2)"></span>
-					<span class="dot" onclick="activeSlide(3)"></span>
-					<span class="dot" onclick="activeSlide(4)"></span>
-					<span class="dot" onclick="activeSlide(5)"></span>
-					<span class="dot" onclick="activeSlide(6)"></span>
-					
+					<ol class="carousel-indicators">
+						<li data-target="#carousel3" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel3" data-slide-to="1"></li>
+						<li data-target="#carousel3" data-slide-to="2"></li>
+						<li data-target="#carousel3" data-slide-to="3"></li>
+						<li data-target="#carousel3" data-slide-to="4"></li>
+						<li data-target="#carousel3" data-slide-to="5"></li>
+					</ol>
 				</div>
 			</section>
-
+		
 			<footer class="footer">
 				<div class="footer-contact">
 					<h3 class="mb-4">CONTACT THE FDIC</h3>

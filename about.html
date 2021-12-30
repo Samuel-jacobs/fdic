@@ -9,53 +9,53 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
+		
 		<!--links-->
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="main.css"> 
 		<link rel="stylesheet" href="about.css">
 	</head>
 
 	<body>
 		<header>
 			<nav id="navbar" class="navbar fixed-top">
-				<a href="#" class="navbar-logo"><img src="img/fdic-logo.svg"> </a>	
+				<a href="index.html" class="navbar-logo"><img src="img/fdic-logo.svg" height="60px" width="60px"> </a>	
 					<div id="myNav" class="overlay">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 						<div class="overlay-content" id="accordion">
 							<div class="nav-content">
-								<a href="#about" class="nav-links"  data-toggle="collapse">About</a>
+								<a href="#about" class="nav-links"  data-toggle="collapse">About <i class="fa fa-angle-right"></i></a>
 								<div id="about" class="collapse nav-text" data-parent="#accordion">
 									<p>The Federal Deposit Insurance Corporation (FDIC) is an independent agency created by the Congress to maintain stability and public confidence in the nation’s financial system. Learn about the FDIC’s mission, leadership, history, career opportunities, and more. </p>
 
-									<a href="about.html">Learn More About the FDIC </a>
+									<a href="about.html">Learn More About the FDIC ></a>
 								</div>
 							</div>
 
 							<div class="nav-content">
-								<a href="#resources" class="nav-links" data-toggle="collapse">Resources</a>
+								<a href="#resources" class="nav-links" data-toggle="collapse">Resources <i class="fa fa-angle-right"></i></a>
 								<div id="resources" class="collapse nav-text" data-parent="#accordion">
 									<p>The FDIC provides a wealth of resources for consumers, bankers, analysts, and other stakeholders. Browse our collection of financial education materials, data tools, documentation of laws and regulations, information on important initiatives, and more.</p>
 
-									<a href="resources.html">Additional FDIC Resources</a>
+									<a href="resources.html">Additional FDIC Resources ></a>
 
 								</div>
 							</div>
 
 							<div class="nav-content">
-								<a href="#analysis" class="nav-links" data-toggle="collapse">Analysis</a>
+								<a href="#analysis" class="nav-links" data-toggle="collapse">Analysis <i class="fa fa-angle-right"></i></a>
 								<div id="analysis" class="collapse nav-text" data-parent="#accordion">
 									<p>The FDIC is proud to be a pre-eminent source of U.S. banking industry research, including quarterly banking profiles, working papers, and state banking performance data. Browse our extensive research tools and reports.</p>
 
-									<a href="analysis.html">More FDIC Analysis</a>
+									<a href="analysis.html">More FDIC Analysis ></a>
 								</div>
 							</div>
 
 							<div class="nav-content">
-								<a href="#news" class="nav-links" data-toggle="collapse">News</a>
+								<a href="#news" class="nav-links" data-toggle="collapse">News <i class="fa fa-angle-right"></i></a>
 								<div id="news" class="collapse nav-text" data-parent="#accordion">
 									<p>The FDIC publishes regular updates on news and activities. Keep up with FDIC announcements, read speeches and testimony on the latest banking issues, learn about policy changes for banks, and get the details on upcoming conferences and events. </p>
 
-									<a href="news.html">Find More FDIC News</a>
+									<a href="news.html">Find More FDIC News ></a>
 								</div>
 							</div> <!--end of nav-content div-->
 						</div> <!--end of overlay content div-->
@@ -99,9 +99,15 @@
 
 				<span onclick="openNav()" class="openbtn"> <i class="fas fa-bars"></i> </span>
 			</nav>
+
+			
 		</header>	
 
 	<main>
+		<ul class="breadcrumb">
+			<li class="breadcrumb-item"><a href="index.html"><i>Home </i> </a></li>
+			<li class="breadcrumb-item active"><i>About</i></li>
+		</ul>
 		<section class="about">
 			<img src="img/hero-about.png" class="hero">
 			<div class="about-content">
@@ -118,10 +124,10 @@
 			<p>The Board of Directors of the FDIC manages operations to fulfill the agency’s mission. Each member of the five-person Board is appointed by the President and confirmed by the Senate. Jelena McWilliams leads the board as Chairman.</p>
 
 			<ul>
-				<li><a href="#"> Meet the Board of Directors and Leadership Team</a> </li>
-				<li><a href="#">Read Board Matters Materials</a> </li>
-				<li><a href="#">Review the Headquarters OrganiZation Directory</a> </li>
-				<li><a href="#">Review Regional Office Organization Directory</a> </li>
+				<li><a href="#"> Meet the Board of Directors and Leadership Team ></a> </li>
+				<li><a href="#">Read Board Matters Materials ></a> </li>
+				<li><a href="#">Review the Headquarters Organization Directory ></a> </li>
+				<li><a href="#">Review Regional Office Organization Directory ></a> </li>
 			</ul>
 		</section>
 
@@ -129,9 +135,9 @@
 			<h3> FDIC Careers</h3>
 			<p>At the FDIC, we work behind the scenes to ensure financial safety for depositors across America. The world of banking is changing, and so is the FDIC. We are addressing the new realities of 21st century banking, and we are spearheading new initiatives to support employees, from professional programs to workforce diversity initiatives.</p>
 			<ul>
-				<li><a href="#">Learn More About Career Opportunities at the FDIC</a> </li>
-				<li><a href="#">Search job Listings</a> </li>
-				<li><a href="#">Read ABout Our Diversity and Inclusion Initiatives</a> </li>
+				<li><a href="#">Learn More About Career Opportunities at the FDIC ></a> </li>
+				<li><a href="#">Search job Listings ></a> </li>
+				<li><a href="#">Read ABout Our Diversity and Inclusion Initiatives ></a> </li>
 			</ul>
 		</section>
 
@@ -139,11 +145,11 @@
 			<h3>Initiatives</h3>
 			<p>The FDIC has several high-level programs that support our stakeholders, including bankers, consumers, and analysts.</p>
 			<ul>
-				<li><a href="#">Innovation</a></li>
-				<li><a href="#">Trust through Transparency</a></li>
-				<li><a href="#">Financial Inclusion</a></li>
-				<li><a href="#">Community Banking</a></li>
-				<li><a href="#">Community Affairs</a></li>
+				<li><a href="#">Innovation ></a></li>
+				<li><a href="#">Trust through Transparency ></a></li>
+				<li><a href="#">Financial Inclusion ></a></li>
+				<li><a href="#">Community Banking ></a></li>
+				<li><a href="#">Community Affairs ></a></li>
 			</ul>
 		</section>
 
@@ -153,15 +159,15 @@
 				<h3 class="text-center">History of FDIC</h3>
 				<p>Since its creation in 1933, the FDIC has been an essential part of the American financial system. In the 1920s and early 1930s, a rise in bank failures created a national crisis, wiping out many Americans’ savings. Since FDIC insurance began in 1934, no depositor has lost a single penny of insured funds due to bank failure.</p>
 				<ul>
-					<li><a href="#">Learn More About the FDIC's History</a></li>
+					<li><a href="#">Learn More About the FDIC's History ></a></li>
 				</ul>
 
 				<h3 class="font-weight-light">FDIC Exhibit: A History of Confidence and stability</h3>
 				<ul>
-					<li><a href="#">Background and Creation of the FDIC</a></li>
-					<li><a href="#">Stability, Change and crisis</a></li>
-					<li><a href="#">Recovery, Crisis and Reform</a></li>
-					<li><a href="#">The FDIC at work</a></li>
+					<li><a href="#">Background and Creation of the FDIC ></a></li>
+					<li><a href="#">Stability, Change and crisis ></a></li>
+					<li><a href="#">Recovery, Crisis and Reform ></a></li>
+					<li><a href="#">The FDIC at work ></a></li>
 				</ul>
 			</div>
 		</section>

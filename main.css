@@ -2,21 +2,30 @@
 	--primaryColor: rgb(0, 50, 86);
 	--secondaryColor: #736539;
 }
+* {
+	line-height: 1.5;
+}
 html, body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	width: 100%;
 	overflow-x: hidden;
-	line-height: 1.15;
+	line-height: 1.7;
+	font-family: "Open Sans", "Source Sans Pro Web", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 .title-color {
 	color: var(--primaryColor);
 }
 
+h1, h3, h5 {
+	font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+	font-weight: lighter;
+}
+
 .navbar {
 	background-color: var(--primaryColor);
-	height: 50px;
+	height: 60px;
 	border-bottom: 5px solid white;
 }
 .navbar-logo {
@@ -25,6 +34,9 @@ html, body {
 	color: black;
 }
 
+.fa-angle-right {
+	float: right;
+}
 
 .header-cards {
 	margin: 10px 15px 30px 15px;
@@ -39,10 +51,6 @@ html, body {
   margin: auto;
 }
 
-.mySlides {
-	display: none;
-
-}
 .slide-image {
 	height: 300px;
 	width: 100%;
@@ -55,7 +63,7 @@ html, body {
   font-weight: 600;
   letter-spacing: 1.5px;
   margin: 0;
-  margin-top: 1.4375rem;
+  margin-top: 1.4375rem; 
 }
 .dot {
   cursor: pointer;
@@ -69,14 +77,19 @@ html, body {
   transition: background-color 0.6s ease; 
 }
 
-.header-cards .active, .dot:hover {
+.header-cards .dot:hover {
   background-color: var(--primaryColor);
 }
-
+.indicators .active {
+	background-color: var(--primaryColor);
+}
 .covid {
 	background-color: red;
 	padding: 5px 40px;
 	font-size: 2rem;
+	font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+	line-height: 0.5;
+
 }
 .covid a {
 	color: white;
@@ -95,7 +108,7 @@ html, body {
 	margin: 20px 15px 30px 15px;
 }
 
-.home-about h1 {
+.home-about h3 {
 	color: var(--primaryColor);
 }
 
@@ -148,6 +161,10 @@ a .section-title {
 	color: white;
 	text-decoration: none;
 }
+.jelena a:hover {
+	color: var(--secondaryColor);
+	text-decoration: underline;
+}
 .jelena-image {
 	padding-top: 50px;
 	background-color: var(--primaryColor);
@@ -165,6 +182,7 @@ a .section-title {
 	display: block;
 }
 
+
 .jelena-visits  {
 	background-color: var(--primaryColor);
 	padding: 10px;
@@ -172,9 +190,10 @@ a .section-title {
 
 .news {
 	padding: 30px;
+	margin-bottom: 70px;
 }
 .news-item p {
-	color	: #736539;
+	color	: var(--secondaryColor)
 }
 .news-item a {
 	color: var(--primaryColor);
@@ -189,9 +208,31 @@ a .section-title {
 	margin: 0 auto;
 	width: 100%;
 }
-
+.carousel  {
+	position: relative;
+}
+ .carousel-indicators {
+	bottom: -70px;
+}
+.home-slides .carousel-indicators li {
+	cursor: pointer;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+	border: 1px solid var(--primaryColor);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; 
+}
+.home-slides .carousel-indicators .active {
+	background-color: var(--primaryColor);
+}
+.home-slides .carousel-indicators li:hover {
+	background-color: var(--primaryColor);
+}
 .data {
 	padding: 20px;
+	margin-bottom: 70px;
 }
 .data-text  {
 	padding: 0 20px;
@@ -309,6 +350,13 @@ select {
 }
 .nav-text {
 	padding: 0 20px 25px 20px;
+}
+.nav-text a {
+	color: white;
+}
+.nav-text a:hover {
+	color: var(--secondaryColor);
+	text-decoration: underline;
 }
 
 .navbar-help {
