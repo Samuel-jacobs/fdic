@@ -1,7 +1,7 @@
 .breadcrumb {
 	margin-top: 40px;
 	background-color: white;
-	padding: 15px 10px;
+	padding: 10px;
 }
 .breadcrumb a {
 	color: var(--primaryColor);

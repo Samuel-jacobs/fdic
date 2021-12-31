@@ -1,7 +1,7 @@
 .breadcrumb {
 	margin-top: 50px;
 	background-color: white;
-	padding: 15px 10px;
+	padding: 10px;
 }
 .breadcrumb a {
 	color: var(--primaryColor);
@@ -71,12 +71,12 @@ h3 {
 
 .news-section1 {
 	padding: 70px 30px 30px 30px;
-	height: 550px;
+	margin-bottom: 70px;
 }
 .news-section1 img {
 	margin: 0 auto;
 	width: 100%;
-	height: 300px;
+	height: 250px;
 }
 .news-section1 a {
 	color: var(--primaryColor);
@@ -96,7 +96,7 @@ h3 {
 }
 
 .press-releases {
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 	padding: 40px 30px;
 }
 
@@ -183,7 +183,7 @@ h3 {
 .speeches {
 	padding: 30px;
 	background-color: var(--primaryColor);
-	height: 280px;
+	height: 320px;
 }
 .speeches h3 {
 	color: white;
@@ -195,7 +195,7 @@ h3 {
 }
 
 .institution-letters {
-	height: 270px;
+	margin-bottom: 70px;
 	padding: 30px;
 }
 .institution-letters h3 {

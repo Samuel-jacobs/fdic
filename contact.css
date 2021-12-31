@@ -1,0 +1,28 @@
+.main {
+	margin-top: 30px;
+}
+.breadcrumb {
+	margin-top: 50px;
+	background-color: white;
+	padding: 10px;
+}
+.breadcrumb a {
+	color: var(--primaryColor);
+}
+.contact h3 {
+	color: var(--primaryColor);
+	text-align: center;
+
+}
+
+.contact-content {
+	border: 1px solid gray;
+	margin: 15px;
+	padding: 15px;
+	font-size: 14px;
+}
+
+.contact-content .fas {
+	color: var(--primaryColor);
+	font-size: 25px;
+}

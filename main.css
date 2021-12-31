@@ -253,6 +253,12 @@ a .section-title {
 .footer-contact {
 	padding-bottom: 10px;
 }
+.footer-contact a {
+	color: white;
+}
+.footer-contact a:hover {
+	text-decoration: none;
+}
 footer input{
 	display: block;
 	padding: 5px;
