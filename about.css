@@ -40,6 +40,7 @@ li {
 }
 .leadership li a:hover {
 	text-decoration: underline;
+	color: var(--secondaryColor);
 }
 
 .careers {
@@ -59,7 +60,6 @@ li {
 }
 
 .initiatives {
-	background-color: var(--primaryColor);
 	color: white;
 	padding: 20px 15px;
 }
@@ -81,7 +81,10 @@ li {
 .history h3 {
 	color: var(--primaryColor);
 }
-
+.history-h {
+	color: var(--primaryColor);
+	font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+}
 .history-content {
 	padding: 0 15px;
 }
@@ -177,4 +180,118 @@ li {
 }
 .featured a {
 	color: var(--primaryColor);
+}
+@media screen and (max-width: 768px) {
+	.bc-2 {
+		display: none;
+	}
+	.initiatives {
+		background-color: var(--primaryColor);
+	}
+	.featured-lg {
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) {
+	
+	main p {
+		color: #444343;
+		line-height: 1.6rem;
+		font-size: 1.4rem;
+	}
+	main h3 {
+		font-size: 2.5rem;
+		padding-bottom: 15px;
+	}
+	li {
+		padding: 0;
+		font-size: 1.3rem;
+		font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+	}
+	.bc-1 {
+		display: none;
+	}
+	.hero {
+		height: 400px;
+		padding: 0 15px;
+		margin-top: 130px;
+	}
+	.bc-2 {
+		margin-top: 0;
+		padding-top: 0;
+		padding-left: 50px;
+	}
+	.about {
+		padding-bottom: 30px;
+	}
+	.about-content {
+		padding: 30px 120px;
+	}
+	.about-content h3 {
+		font-size: 60px;
+		padding: 20px 0;
+	}
+	.leadership {
+		padding: 30px 100px 30px 100px;
+		background-image: url(img/fdic-about-leadership-bg3.jpg);
+		background-position: top left;
+		background-repeat: no-repeat;
+
+	}
+	.leadership p {
+		color: white;
+	}
+	.careers{
+		background-image: url(img/fdic-about-careers-bg.jpg);
+		background-position: 40% 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.careers h3 {
+		text-align: left;
+	}
+
+	.initiatives {
+		background-image: url(img/fdic-resources-initiatives-bg.png);
+		background-position: 70% 0;
+    background-repeat: no-repeat;
+		color: white;
+		padding: 50px 0 50px 100px;
+	}
+	.initiatives p {
+		color: white;
+	}
+
+	.history img {
+		height: 400px;
+		padding-top: 0;
+	}
+	.history-content {
+		padding: 0 100px 20px 100px;
+	}
+	.additional-links {
+		margin: 0 auto;
+		padding-left: 30%;
+		padding-right: 30%;
+		height: 450px;
+	}
+	.additional-links .carousel-indicators li {
+		height: 25px;
+	}
+	.featured {
+		display: none;
+	}
+	.featured-lg {
+		margin: 0 auto;
+		padding: 50px 100px;
+	}
+	.featured-lg p {
+		color	: #736539;
+	}
+	.featured-lg a {
+		color: var(--primaryColor);
+	}
+	.featured-lg h3 {
+		color: var(--primaryColor);
+	}
 }

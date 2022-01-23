@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>FDIC: News</title>
+		<title>FDIC: News and Events</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -99,14 +99,33 @@
 
 				<span onclick="openNav()" class="openbtn"> <i class="fas fa-bars"></i> </span>
 			</nav>
+			<nav class="lg-navbar fixed-top">
+				<a href="index.html" class="navbar-logo"><img src="img/fdic-logo.svg" alt="fdic logo"> </a>	
+				<div class="nav-content-main">
+					<div class="nav-content">
+						<a href="about.html" class="nav-links">ABOUT</a>
+					</div>
+					<div class="nav-content">
+						<a href="resources.html" class="nav-links">RESOURCES</a>
+					</div>
+					<div class="nav-content">
+						<a href="analysis.html" class="nav-links">ANALYSIS</a>
+					</div>
+					<div class="nav-content">
+						<a href="news.html" class="nav-links">NEWS</a>
+					</div>
+				</div>
+				
+			</nav>
 		</header>	
 
 	<main>
-		<ul class="breadcrumb">
-			<li class="breadcrumb-item"><a href="index.html"><i>Home </i> </a></li>
-			<li class="breadcrumb-item active"><i>News</i></li>
-		</ul>
+		
 		<section class="news-main light">
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html"><i>Home </i> </a></li>
+				<li class="breadcrumb-item active"><i>News</i></li>
+			</ul>
 			<img src="img/icon-news.svg" alt="news icon">
 			<div class="news-content">
 				<h3>News</h3>
@@ -142,7 +161,27 @@
 			</div>
 		</section>
 
-		<section class="calendar dark">
+		<section class="news-section1-lg">
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="img/rapid-prototype.jpg" alt="rapid prototype image">
+					<p class="p-color">PRESS RELEASE / August 16, 2021</p>
+					<a href="#">FDITECH Launches New Sprint to Measure and Test Bank Operational Resiliency</a>
+				</div>
+				<div class="col-sm-4">
+					<img src="img/boardroom.jpg" width="100%"   alt="board room chair image">
+					<p class="p-color">PRESS RELEASE / July 20, 2021</p>
+					<a href="#">FDIC Issues Proposed Rule Regarding Deposit Insurance Simplification</a>
+				</div>
+				<div class="col-sm-4">
+					<img src="img/cbac-mosiac-sm.jpg" alt="cbac bulding image">
+					<p class="p-color">PRESS RELEASE / June 15, 2021</p>
+					<a href="#">FDIC Board Approves New Policy Statement on Minority depository Institutions</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="calendar dark news-align">
 			<h3 class="text-center">FDIC Calendar</h3>
 			<div id="carousel1" class="carousel slide" data-interval="false" data-ride="carousel" >
 				<div class="carousel-inner">
@@ -221,7 +260,7 @@
 			</div>
 		</section>
 
-		<section class="press-releases light">
+		<section class="press-releases light news-align">
 			<h3>Press Releases</h3>
 			<div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="false">
 				<div class="carousel-inner">
@@ -273,10 +312,14 @@
 
 		<section class="videos dark">
 			<h3>Videos</h3>
-			<div class="videos-content">
-				<img src="img/mdi-subcommittee-video.png" alt="advisory committee video thumbnail">
-				<p>VIDEO / July 22, 2021</p>
-				<a href="#">Advisory Committee on Community Banking (CBAC) Virtual</a>
+			<div class="videos-content row">
+				<div class="col-sm-6">
+					<img src="img/mdi-subcommittee-video.png" alt="advisory committee video thumbnail">
+				</div>
+				<div class="col-sm-6 vc-text">
+					<p>VIDEO / July 22, 2021</p>
+					<a href="#">Advisory Committee on Community Banking (CBAC) Virtual</a>
+				</div>		
 			</div>
 			<div id="carousel3" class="carousel slide videos-carousel" data-ride="carousel" data-interval="false">
 				<div class="carousel-inner">
@@ -298,41 +341,87 @@
 					<div class="carousel-item">
 						<img src="img/cbac.jpg" alt="cbac video thumbnail">
 						<p>VIDEO / April 13, 2021</p>
+						<a href="#">Advisory Committee on Community Banking</a>
 					</div>
 				</div>
 				<ol class="carousel-indicators">
 					<li data-target="#carousel3" data-slide-to="0" class="active"></li>
 					<li data-target="#carousel3" data-slide-to="1"></li>
 					<li data-target="#carousel3" data-slide-to="2"></li>
+					<li data-target="#carousel3" data-slide-to="3"></li>
 				</ol>
+			</div>
+			<div class="videos-carousel-lg row">
+				<div class="col-sm-6 col-md-3">
+					<div class="card">
+						<img src="img/mdi-subcommittee-video.jpg" alt="MDI subcommittee video thumbnail" class="card-img-top">
+						<div class="card-body">
+							<p>VIDEO / July, 2021</p>
+							<a href="#"> Minority depository Institutions (MDI) Subcommittee Virtual Meeting</a>
+						</div>
+					</div>			
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="card">
+						<img src="img/board-meeting-video.jpg" alt="board metting video thumbnail" class="card-img-top">
+						<div class="card-body">
+							<p>VIDEO / July 20, 2021</p>
+							<a href="#">FDIC Board Meeting</a>
+						</div>
+					</div>	
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="card">
+						<img src="img/come-in.jpg" alt="community on economic inclusion video thumbnail" class="card-img-top">
+						<div class="card-body">
+							<p>VIDEO / May 13, 2021</p>
+							<a href="#">Advisory Committee on Economic Inclusion (come-in)</a>
+						</div>
+					</div>					
+				</div>
+				<div class="col-sm-6 col-md-3">
+						<div class="card">
+							<img src="img/cbac.jpg" alt="cbac video thumbnail" class="card-img-top"> 
+							<div class="card-body">
+								<p>VIDEO / April 13, 2021</p>
+								<a href="#">Advisory Committee on Community Banking</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<section class="podcast">
 			<h3>Podcasts</h3>
-			<img src="img/fdicpodcastgraphic.png" class="podcast-image" alt="fdic podcast graphic image">
-			<p>Among the FDIC’s important missions is to help consumers understand and access our financial system so they can build a legacy for themselves and their families. The FDIC Podcast seeks to untangle the myths and mystery of the banking world and to shed light on how every person can become part of the financial fabric of this country. Subscribe for email reminders.</p>
-			<div class="row podcast-icons">
-				<div class="col-4">
-					<img src="img/fdic-news-apple-podcast.jpg" alt="fdic news apple podcast icon">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="img/fdicpodcastgraphic.png" class="podcast-image" alt="fdic podcast graphic image">
 				</div>
-				<div class="col-4">
-					<img src="img/fdic-news-spotify.jpg" alt="fdic news spotify podcast icon">
-				</div>
-				<div class="col-4">
-					<img src="img/fdic-news-google-podcasts.jpg" alt="fdic-news-google-podcast icon">
+				<div class="col-sm-6 podcast-text">
+					<p>Among the FDIC’s important missions is to help consumers understand and access our financial system so they can build a legacy for themselves and their families. The FDIC Podcast seeks to untangle the myths and mystery of the banking world and to shed light on how every person can become part of the financial fabric of this country. Subscribe for email reminders.</p>
+					<div class="row podcast-icons">
+						<div class="col-4">
+							<img src="img/fdic-news-apple-podcast.jpg" alt="fdic news apple podcast icon">
+						</div>
+						<div class="col-4">
+							<img src="img/fdic-news-spotify.jpg" alt="fdic news spotify podcast icon">
+						</div>
+						<div class="col-4">
+							<img src="img/fdic-news-google-podcasts.jpg" alt="fdic-news-google-podcast icon">
+						</div>
+					</div>
 				</div>
 			</div>
+				
 			<div class="podcast-content">
 				<p>December 15, 2021</p>
 				<a href="#">A Woman of Many First</a>
 				<p>Born in a small Texas town, Arleas Upton Kea came to the FDIC nearly 40 years ago as a young attorney and rose through the agency’s senior ranks in good times and during moments of crisis. Meet Arleas and her incredible legacy of public service.</p>
-
-
 			</div>
 		</section>
 
-		<section class="speeches dark">
+		<section class="speeches dark news-align">
 			<h3>Speeches & Testimony</h3>
 			<div id="carousel4" class="carousel slide" data-ride="carousel" data-interval="false">
 				<div class="carousel-inner">
@@ -383,7 +472,7 @@
 
 		</section>
 
-		<section class="institution-letters light">
+		<section class="institution-letters light news-align">
 			<h3>Financial Institution Letters</h3>
 			<div id="carousel5" class="carousel slide" data-ride="carousel" data-interval="false">
 				<div class="carousel-inner">
@@ -429,16 +518,17 @@
 
 		
 
-	<footer class="footer">
-		<div class="footer-contact">
+	<footer class="footer row">
+		<div class="footer-contact col-lg-4">
 			<h3 class="mb-4">CONTACT THE FDIC</h3>
 			<button type="button" class="footer-btn"><a href="contact.html">CONTACT US</a></button>
+			<hr class="line">
 		</div>
 		<hr class="line"> 
-		<div class="footer-informed">
+		<div class="footer-informed col-lg-4">
 			<h3 class="mb-4">STAY INFORMED</h3>
 			<form>
-				<input type="text" placeholder="enter your email address" class="input-email"> <br>
+				<input type="text" placeholder="enter your email address" class="input-email form-control"> <br>
 				<button type="button" value="submit" class="footer-btn"> GET STARTED</button>
 			</form>
 			<div class="socials">
@@ -449,10 +539,10 @@
 				<a href="#"><i class="fab fa-flickr"></i></a>
 				<a href="#"><i class="fas fa-play"></i></a>
 			</div>
-
+			<hr class="line">
 		</div>
-		<hr class="line">
-		<div class="footer-help">
+		
+		<div class="footer-help col-lg-4">
 			<h3>HOW CAN WE HELP YOU?</h3>
 			<form>
 				<select name="help" id="" class="custom-select">

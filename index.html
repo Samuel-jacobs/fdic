@@ -23,20 +23,22 @@
 
 	<body>
 		<header>
-			<nav id="navbar" class="navbar fixed-top">
-				<a href="index.html" class="navbar-logo"><img src="img/fdic-logo.svg" height="60px" width="60px"> </a>	
+			<nav id="navbar" class="navbar sm-navbar fixed-top">
+				<a href="index.html" class="navbar-logo"><img src="img/fdic-logo.svg" alt="fdic logo"> </a>	
 					<div id="myNav" class="overlay">
 						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 						<div class="overlay-content" id="accordion">
 							<div class="nav-content">
 								<a href="#about" class="nav-links"  data-toggle="collapse">About <i class="fa fa-angle-right"></i></a>
+								
 								<div id="about" class="collapse nav-text" data-parent="#accordion">
 									<p>The Federal Deposit Insurance Corporation (FDIC) is an independent agency created by the Congress to maintain stability and public confidence in the nation’s financial system. Learn about the FDIC’s mission, leadership, history, career opportunities, and more. </p>
 
 									<a href="about.html">Learn More About the FDIC ></a>
 								</div>
+								
 							</div>
-
+							
 							<div class="nav-content">
 								<a href="#resources" class="nav-links" data-toggle="collapse">Resources <i class="fa fa-angle-right"></i></a>
 								<div id="resources" class="collapse nav-text" data-parent="#accordion">
@@ -57,6 +59,7 @@
 							</div>
 
 							<div class="nav-content">
+								
 								<a href="#news" class="nav-links" data-toggle="collapse">News <i class="fa fa-angle-right"></i></a>
 								<div id="news" class="collapse nav-text" data-parent="#accordion">
 									<p>The FDIC publishes regular updates on news and activities. Keep up with FDIC announcements, read speeches and testimony on the latest banking issues, learn about policy changes for banks, and get the details on upcoming conferences and events. </p>
@@ -101,8 +104,27 @@
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-					</div> <!--end of main nav div-->
+					</div> <!--end of main overlay nav div-->
+				
 				<span onclick="openNav()" class="openbtn"> <i class="fas fa-bars"></i> </span>
+			</nav>
+			<nav class="lg-navbar fixed-top">
+				<a href="index.html" class="navbar-logo"><img src="img/fdic-logo.svg" alt="fdic logo"> </a>	
+				<div class="nav-content-main">
+					<div class="nav-content">
+						<a href="about.html" class="nav-links">ABOUT</a>
+					</div>
+					<div class="nav-content">
+						<a href="resources.html" class="nav-links">RESOURCES</a>
+					</div>
+					<div class="nav-content">
+						<a href="analysis.html" class="nav-links">ANALYSIS</a>
+					</div>
+					<div class="nav-content">
+						<a href="news.html" class="nav-links">NEWS</a>
+					</div>
+				</div>
+				
 			</nav>
 		</header>	
 
@@ -142,10 +164,46 @@
 					<span class="dot" onclick="currentSlide(2)"></span>
 					<span class="dot" onclick="currentSlide(3)"></span>
 				</div> 
+			
+			</section> 
+			<div class="header-cards-lg">
+				<div class="row no-gutters">
+					<div class="col-lg-8">
+						<div class="card-overlay">
+							<img src="img/boardroom.jpg" alt="board room chair" height="100%" class="pr-2">
+							<div class="card-overlay-content">
+								<p> <span class="h-color">EVENT </span> <br>
+								FDIC board meeting</p>
+								<p>The FDIC Board of Directors will meet at 10:00 a.m. ET on Tuesday, December 14, 2021. The event will be webcast live.</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-lg-4">
+						<div class="card-overlay1">
+							<img src="img/announcement.png" alt="announcement image" class="pb-2">
+							<div class="card-overlay-content1">
+								<div class="overlay-content-text">
+									<p> <span class="h-color">ANNOUNCEMENT </span> <br>
+									FDIC chairman jelena McWilliams Announces New Mission-Driven Bank fund</p>
+								</div>
+							</div>
+						</div>
+						<div class="card-overlay2">
+							<img src="img/initiative.jpg" alt="initiative image">
+							<div class="card-overlay-content2">
+								<p> <span class="h-color">INITIATIVE  </span> <br>
+									#GetBanked</p>
+									<p>the FDIC public awareness campaign about the benefits of opening a bank account</p>    
+							</div>
+						</div>
+						
+					</div>
+				</div>
 				<div class="covid">
 					<a href="#">Our Response to the Coronavirus Pandemic</a>
 				</div>
-			</section>
+			</div>
 			<hr class="line-break">
 			
 			<section class="home-about">
@@ -153,6 +211,7 @@
 				<p>The Federal Deposit Insurance Corporation (FDIC) is an independent agency created by the Congress to maintain stability and public confidence in the nation’s financial system. The FDIC insures deposits; examines and supervises financial institutions for safety, soundness, and consumer protection; makes large and complex financial institutions resolvable; and manages receiverships.</p>
 				<button type="button" class="btn about-btn">LEARN MORE</button>
 			</section>
+
 			<section class="categories" id="accordion1">
 				<a href="#bankers" class="section-toggle-link" data-toggle="collapse"> <h3> BANKERS <i class="fa fa-angle-right"></i></h3> </a>
 				<div id="bankers"  class="collapse show" data-parent="#accordion1">
@@ -161,12 +220,17 @@
 						<h2>Bankers</h2>
 						<p>The FDIC provides extensive resources for bankers, including guidance on regulations, information on examinations, legislation insights, and training programs.</p>
 					</div>
-					<div class="section-card">
-						<img src="img/announcement.png">
-						<a href="#" class="section-link"> <span class="section-title">ANNOUNCEMENT / September 16, 2021 </span> 
-						<br>
-						FDIC Chairman Jelena Williams Announces New Mission-Driven Bank Fund</a>
-						<p class="section-text pt-3">The FDIC today announced the launch of a new Mission-Driven Bank Fund, a capital investment vehicle being developed by the FDIC to support insured Minority Depository Institutions (MDIs) and Community Development Financial Institutions (CDFIs).</p>
+					<div class="section-card row">
+						<div class="col-lg-4 col-12">
+							<img src="img/announcement.png" alt="announcement image">
+						</div>
+						<div class="col-lg-8 col-12">
+							<a href="#" class="section-link"> <span class="section-title">ANNOUNCEMENT / September 16, 2021 </span> 
+								<br>
+								FDIC Chairman Jelena Williams Announces New Mission-Driven Bank Fund</a>
+								<p class="section-text pt-3">The FDIC today announced the launch of a new Mission-Driven Bank Fund, a capital investment vehicle being developed by the FDIC to support insured Minority Depository Institutions (MDIs) and Community Development Financial Institutions (CDFIs).</p>
+						</div>
+						
 					</div>
 				</div>
 				<a href="#consumers" class="section-toggle-link" data-toggle="collapse"> <h3>CONSUMERS <i class="fa fa-angle-right"></i></h3> </a>
@@ -175,14 +239,17 @@
 						<img src="img/icon-consumers.svg" class="icons">
 						<p>The FDIC provides tools, education, and news updates to help consumers make informed decisions and protect their assets.</p>
 					</div>
-					<div class="section-card">
-						<img src="img/initiative.jpg" >
-						<a href="#" class="section-link"> <span class="section-title">INITIATIVES / Apr. 5, 2021</span> </br>
-						#GetBanked </a> 
-						<p class="section-text pt-3">If you are in one of the millions of U.S. households without a bank account, and you are looking to open an account, there are resources available to help you get started. Banking relationships generally begin with a checking or savings account, and may lead to low-interest loans and mortgages. <a href="#">Learn more about the top reasons to open a bank account. </a> </p>
-
-
-						<p>	#GetBanked-español</p>
+					<div class="section-card row">
+						<div class="col-lg-4 col-12">
+							<img src="img/initiative.jpg" alt="initiative image">
+						</div>
+						<div class="col-lg-8 col-12">
+							<a href="#" class="section-link"> <span class="section-title">INITIATIVES / Apr. 5, 2021</span> </br>
+							#GetBanked </a> 
+							<p class="section-text pt-3">If you are in one of the millions of U.S. households without a bank account, and you are looking to open an account, there are resources available to help you get started. Banking relationships generally begin with a checking or savings account, and may lead to low-interest loans and mortgages. <a href="#">Learn more about the top reasons to open a bank account. </a> </p>
+							<p>	#GetBanked-español</p>
+						</div>
+					
 					</div>
 				</div>
 		
@@ -192,31 +259,39 @@
 						<img src="img/icon-analysts.svg" class="icons">
 						<p>The FDIC is proud to be a pre-eminent source of U.S. banking industry research for analysts, including quarterly banking profiles, working papers, and state banking performance data.</p>
 					</div>
-					<div class="section-card">
-						<img src="img/webinar.jpg" >
-						<a href="#" class="section-link"> <span class="section-title">WEBINER SERIES / Jun. 17, 2021 </span> </br> 
-						Banking on Date Webiner 3P Ethics of artificial Intelligence and Machine Learning</a>
-						<p class="section-text pt-3">This series, in partnership with the Santa Clara University (SCU) Leavey School of Business, builds on the themes of the 2019 FDIC FinTech Research Conference, highlighting the opportunities and challenges for financial institutions, consumers, and the financial system created by the use of big data and applied technologies.</p>
+					<div class="section-card row">
+						<div class="col-lg-4 col-12">
+							<img src="img/webinar.jpg" alt="webinar image">
+						</div>
+						<div class="col-lg-8 col-12">
+							<a href="#" class="section-link"> <span class="section-title">WEBINER SERIES / Jun. 17, 2021 </span> </br> 
+							Banking on Date Webiner 3P Ethics of artificial Intelligence and Machine Learning</a>
+							<p class="section-text pt-3">This series, in partnership with the Santa Clara University (SCU) Leavey School of Business, builds on the themes of the 2019 FDIC FinTech Research Conference, highlighting the opportunities and challenges for financial institutions, consumers, and the financial system created by the use of big data and applied technologies.</p>
+						</div>
+						
 					</div>
 				</div>
 			</section>
 			
-			<section class="jelena">
-				<div class="jelena-image">
-					<img src="img/jelena.png">
-			</div>
-				<div class="jelena-bio">
-					<div class="jelena-bio-text">
-						<h1>Jelena McWilliams</h1>
-						<h4>21st Chairman of the FDIC</h4>
-						<p>Jelena McWilliams was sworn in as the 21st Chairman of the FDIC on June 5, 2018. Previously, Ms. McWilliams was executive vice president, chief legal officer, and corporate secretary for a regional bank; chief counsel on the U.S. Senate Banking, Housing and Urban Affairs Committee; assistant chief counsel on the U.S. Senate Committee on Small Business and Entrepreneurship; and an attorney at the Federal Reserve Board of Governors and in private practice. One of Chairman McWilliams' key initiatives at the FDIC is Trust through Transparency to make the FDIC more accessible, understandable, and responsive. </p>
-
-						<a href="#">Learn More About the Chairman ></a>
-						<a href="#">Speeches & Testimony ></a>
-						<a href="#">Invite the Chairman to an Event ></a>
+			<section class="jelena row no-gutters">
+				<div class="col-lg-5 col-12">
+					<div class="jelena-image">
+						<img src="img/jelena.png">
+					</div>
+					<div class="jelena-bio">
+						<div class="jelena-bio-text">
+							<h1>Jelena McWilliams</h1>
+							<h4>21st Chairman of the FDIC</h4>
+							<p>Jelena McWilliams was sworn in as the 21st Chairman of the FDIC on June 5, 2018. Previously, Ms. McWilliams was executive vice president, chief legal officer, and corporate secretary for a regional bank; chief counsel on the U.S. Senate Banking, Housing and Urban Affairs Committee; assistant chief counsel on the U.S. Senate Committee on Small Business and Entrepreneurship; and an attorney at the Federal Reserve Board of Governors and in private practice. One of Chairman McWilliams' key initiatives at the FDIC is Trust through Transparency to make the FDIC more accessible, understandable, and responsive. </p>
+	
+							<a href="#">Learn More About the Chairman ></a>
+							<a href="#">Speeches & Testimony ></a>
+							<a href="#">Invite the Chairman to an Event ></a>
+						</div>
 					</div>
 				</div>
-				<div class="jelena-visits">
+				
+				<div class="jelena-visits col-lg-7 col-12 pr-4 pl-3">
 					<h3>FDIC Chairman State Visits</h3>
 					<p class="pt-3">As part of her <i>Trust through Transparency </i>initiative, Chairman McWilliams is meeting with stakeholders in every state. In her first 18 months as Chairman, she visited bankers, state officials, community groups and other stakeholders in 30 states. Since the pandemic, Chairman McWilliams has continued state visits virtually. Click on states in the map below to follow her travels. </p>
 
@@ -228,6 +303,7 @@
 							<a href="#"> State Economic Profile ></a>
 						</li>
 					</ul>
+					<div></div>
 				</div>
 			</section>
 
@@ -236,29 +312,40 @@
 					<img src="img/icon-news.svg" class="icons text-center">
 					<h1 class="title-color">Latest News</h1>
 				</div>
-				
-				
+
 				<div id="carousel2" class="carousel slide" data-interval="false" data-ride="carousel">
 					<div class="carousel-inner slideshow-container">
 						<div class="carousel-item news-item active">
 							<img src="img/event-news.jpg" class="news-image">
-							<p class="pt-4">EVENT / November 30, 2021</p>
-							<a href="#">Quarterly Banking Profile</a>
+							<div class="pl-3">
+								<p class="pt-4">EVENT / November 30, 2021</p>
+								<a href="#">Quarterly Banking Profile</a>
+							</div>
+							
 						</div>	
 						<div class="carousel-item news-item">
 							<img src="img/credit-cards.jpg" class="news-image">
-							<p class="pt-4">CONSUMER NEWS / November 8, 2021</p>
-							<a href="#">Using The Right Card</a>
+							<div class="pl-3">
+								<p class="pt-4">CONSUMER NEWS / November 8, 2021</p>
+								<a href="#">Using The Right Card</a>
+							</div>
+							
 						</div>
 						<div class="carousel-item news-item">
 							<img src="img/cybersecurity.jpg" class="news-image">
-							<p class="pt-4">CONSUMER NEWS / October 8, 2021</p>
-							<a href="#">Cybersecurity is Key</a>
+							<div class="pl-3">
+								<p class="pt-4">CONSUMER NEWS / October 8, 2021</p>
+								<a href="#">Cybersecurity is Key</a>
+							</div>
+							
 						</div>
 						<div class="carousel-item news-item">
 							<img src="img/innovation.jpg" class="news-image">
-							<p class="pt-4">INNOVATION / september 13, 2021</p>
-							<a href="#">FDITeCH selects Three winning teams in tech sprint to reach thre unbanked</a>
+							<div class="pl-3">
+								<p class="pt-4">INNOVATION / september 13, 2021</p>
+								<a href="#">FDITeCH selects Three winning teams in tech sprint to reach thre unbanked</a>
+							</div>
+							
 						</div>	
 					</div>	 
 					<ol class="carousel-indicators">
@@ -332,16 +419,17 @@
 				</div>
 			</section>
 		
-			<footer class="footer">
-				<div class="footer-contact">
+			<footer class="footer row">
+				<div class="footer-contact col-lg-4">
 					<h3 class="mb-4">CONTACT THE FDIC</h3>
 					<button type="button" class="footer-btn"><a href="contact.html">CONTACT US</a></button>
+					<hr class="line">
 				</div>
 				<hr class="line"> 
-				<div class="footer-informed">
+				<div class="footer-informed col-lg-4">
 					<h3 class="mb-4">STAY INFORMED</h3>
 					<form>
-						<input type="text" placeholder="enter your email address" class="input-email"> <br>
+						<input type="text" placeholder="enter your email address" class="input-email form-control"> <br>
 						<button type="button" value="submit" class="footer-btn"> GET STARTED</button>
 					</form>
 					<div class="socials">
@@ -352,10 +440,10 @@
 						<a href="#"><i class="fab fa-flickr"></i></a>
 						<a href="#"><i class="fas fa-play"></i></a>
 					</div>
-
+					<hr class="line">
 				</div>
-				<hr class="line">
-				<div class="footer-help">
+				
+				<div class="footer-help col-lg-4">
 					<h3>HOW CAN WE HELP YOU?</h3>
 					<form>
 						<select name="help" id="" class="custom-select">

@@ -26,10 +26,11 @@ h1, h3, h5 {
 .navbar {
 	background-color: var(--primaryColor);
 	height: 60px;
+	border-top: 5px solid var(--secondaryColor);
 	border-bottom: 5px solid white;
 }
 .navbar-logo {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	color: black;
 }
@@ -83,7 +84,7 @@ h1, h3, h5 {
 .indicators .active {
 	background-color: var(--primaryColor);
 }
-.covid {
+.covid {  
 	background-color: red;
 	padding: 5px 40px;
 	font-size: 2rem;
@@ -106,6 +107,9 @@ h1, h3, h5 {
 .home-about {
 	text-align: center;
 	margin: 20px 15px 30px 15px;
+	background-image: url(img/seal.png);
+  background-repeat: no-repeat;
+  background-position: 50% 45px;
 }
 
 .home-about h3 {
@@ -168,6 +172,9 @@ a .section-title {
 .jelena-image {
 	padding-top: 50px;
 	background-color: var(--primaryColor);
+	background-image: url(img/bg-flag.png);
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 .jelena-bio {
 	background-color: #162237;
@@ -185,7 +192,7 @@ a .section-title {
 
 .jelena-visits  {
 	background-color: var(--primaryColor);
-	padding: 10px;
+	padding: 20px;
 }
 
 .news {
@@ -240,6 +247,10 @@ a .section-title {
 
 .footer {
 	background-color: var(--primaryColor);
+	background-image: url(img/bg-informed.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	text-align: center;
 	color: white;
 	padding: 30px 0;
@@ -279,7 +290,7 @@ select {
 	background-color: #7f7044;
 	padding: 8px 70px;
 
-	border-radius: 3px; 
+	border-radius: 5px; 
 	color: white;
 	border: none;
 }
@@ -303,109 +314,129 @@ select {
 
 
 /* media queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+	
+	.lg-navbar {
+		display: none;
+	}
+	.navbar-logo img{
+		height: 60px;
+		width: 60px;
+	}
+	.header-cards-lg {
+		display: none;
+	}
   /* The Overlay (background) */
-.overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-  height: 100%;
-  width: 0;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  right: 0;
-  top: 0;
-  background-color: var(--primaryColor); /* Black fallback color */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-	padding-bottom: 20px;
-}
+	.overlay {
+		/* Height & width depends on how you want to reveal the overlay (see JS below) */   
+		height: 100%;
+		width: 0;
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Sit on top */
+		right: 0;
+		top: 0;
+		background-color: var(--primaryColor); /* Black fallback color */
+		overflow-x: hidden; /* Disable horizontal scroll */
+		transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+		padding-bottom: 20px;
+		
+	}
 
 /* Position the content inside the overlay */
-.overlay-content {
-  position: relative;
-  top: 5%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
+	.overlay-content {
+		position: relative;
+		top: 5%; /* 25% from the top */
+		width: 100%; /* 100% width */
+		margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+		
+	}
 
 /* The navigation links inside the overlay */
-.overlay a {
-  text-decoration: none;
-  color: white;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
-}
-.openbtn {
-	margin-left: 95%;
-}
-.fa-bars {
-	color: white;
-	font-size: 30px;
-}
-.nav-links {
-	font-size: 1.5rem;
-	padding: 15px 20px;
-	text-transform: uppercase;
-}
-.nav-links:hover .nav-content {
-	display: block;
-}
-.nav-content {
-	color: white;
-	border-bottom: 1px solid grey;
+	.overlay a {
+		text-decoration: none;
+		color: white;
+		display: block; /* Display block instead of inline */
+		transition: 0.3s; /* Transition effects on hover (color) */
+	}
+	.openbtn {
+		margin-left: 95%;
+	}
+	.fa-bars {
+		color: white;
+		font-size: 30px;
+	}
+	.nav-links {
+		font-size: 1.5rem;
+		padding: 15px 20px;
+		text-transform: uppercase;
+	}
+	.nav-links:hover .nav-content {
+		display: block;
+	}
+	.nav-content {
+		color: white;
+		border-bottom: 1px solid grey;
+		
+	}
+	.nav-content-lg {
+		display: none;
+	}
+	.nav-text {
+		padding: 0 20px 25px 20px;
+	}
+	.nav-text a {
+		color: white;
+	}
+	.nav-text a:hover {
+		color: var(--secondaryColor);
+		text-decoration: underline;
+	}
+
+	.navbar-help {
+		position: relative;
+		top: 5%;
+		margin-top: 30px;
+		text-align: center;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.navbar-help h3 {
+		color: white;
+	}
+	.socials {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.socials a {
+		display: inline;
+		padding: 5px 7px; 
+		margin: 0 3px;
+		background-color: #7f7044;
+		border-radius: 50%;
+		color: white;
+	}
+	/* When you mouse over the navigation links, change their color */
+		.overlay a:hover, .overlay a:focus {
+		color: #f1f1f1;
+		}
+
+	/* Position the close button (top right corner) */
+		.overlay .closebtn {
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			font-size: 40px;
+			font-weight: bolder;
+		}
 	
-}
-.nav-text {
-	padding: 0 20px 25px 20px;
-}
-.nav-text a {
-	color: white;
-}
-.nav-text a:hover {
-	color: var(--secondaryColor);
-	text-decoration: underline;
+		.footer {
+			padding: 20px 50px;
+		}
+		
 }
 
-.navbar-help {
-	position: relative;
-	top: 5%;
-	margin-top: 30px;
-	text-align: center;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-.navbar-help h3 {
-	color: white;
-}
-.socials {
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
-.socials a {
-	display: inline;
-	padding: 5px 7px; 
-	margin: 0 3px;
-	background-color: #7f7044;
-	border-radius: 50%;
-	color: white;
-}
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-/* Position the close button (top right corner) */
-.overlay .closebtn {
-  position: absolute;
-	right: 10px;
-	top: 10px;
-  font-size: 40px;
-	font-weight: bolder;
-}
- 
-}
-
-@media screen  and  (min-width: 600px) {
+@media screen  and  (min-width: 769px) {
 	.closebtn, .openbtn {
 		display: none;
 	}
@@ -419,4 +450,246 @@ select {
     top: 15px;
     right: 35px;
   }
+}
+
+@media screen and (min-width: 769px) {
+	
+	.navbar {
+		display: none;
+	}
+	.lg-navbar {
+		background-color: var(--primaryColor);
+		height: 120px;
+		border-top: 5px solid var(--secondaryColor);
+		border-bottom: 5px solid white;
+		padding-left: 50px;
+	}
+	.nav-content-main {
+		position: relative;
+		top: 30%;
+		left: 20%;
+	}
+	.navbar-logo img{
+		
+		height: 120px;
+		width: 120px;
+	}
+	.nav-text {
+		display: none;
+	}
+	.navbar-help {
+		display: none;
+	}
+	.fa-angle-right {
+		display: none;
+	}
+	.overlay {
+		position: relative;
+		left: 25%; 
+	}
+	.nav-content {
+		display: inline;
+		padding: 30px;
+	}
+	.nav-content:hover {
+		border-top: 3px solid white;
+		border-left: 3px solid white;
+		border-right: 3px solid white;
+	}
+	.nav-content a:hover {
+		color: white;
+		text-decoration: none;
+	
+		
+	}
+	.nav-links {
+		color: white;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+	}
+	
+
+	.header-cards {
+		display: none;
+	}
+
+	.header-cards-lg {
+		margin-top: 120px;
+		padding: 10px;
+		position: relative;
+	}
+	.header-cards-lg img {
+		width: 100%;
+	}
+
+	.img1 {
+		height: 500px;
+	}
+	.card-overlay {
+		height: 100%;
+		position: relative;
+	}
+
+	.card-overlay-content {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: transparent;
+		overflow: hidden;
+		width: 100%;
+		height: 10%;
+		transition: .5s ease;
+		
+		color: white;
+		padding-left: 20px;
+		padding-right: 50px;
+	}
+
+	.card-overlay:hover .card-overlay-content {
+		height: 20%;
+	}
+	
+	.card-overlay1 {
+		position: relative;
+	}
+
+	.card-overlay-content1 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: transparent;
+		overflow: hidden;
+		width: 100%;
+		height: 11%;
+		transition: .5s ease;
+	
+		color: white;
+		padding-left: 20px;
+	}
+
+	.card-overlay1:hover .card-overlay-content1 {
+		height: 30%;
+	}
+	.card-overlay2 {
+		position: relative;
+	}
+	.card-overlay-content2 {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: transparent;
+		overflow: hidden;
+		width: 100%;
+		height: 16%;
+		transition: .5s ease;
+	
+		color: white;
+		padding-left: 20px;
+	}
+
+	.card-overlay2:hover .card-overlay-content2 {
+		height: 40%;
+	}
+	.covid {
+		margin-top: 15px;
+		text-align: center;
+	} 
+	.line-break {
+		display: block;
+	}
+
+	.home-about {
+		padding: 30px 100px;
+
+	}
+	.home-about p {
+		font-size: 1.2rem;
+	}
+
+	.home-about h3 {
+		font-size: 50px;
+	}
+	.section-intro {
+		padding: 30px 15% 20px 15%;
+	}
+	.section-intro h2 {
+		font-size: 50px;
+	}
+	.section-intro p {
+		font-size: 1.2rem;
+	}
+	.section-card {
+		padding: 30px 50px;
+	}
+	
+	.jelena-image {
+		padding-left: 30px;
+	}
+	.jelena-bio {
+		padding: 15px;
+		margin-bottom: 0;
+	}
+	.jelena-visits {
+		padding-top: 30px;
+		font-size: 1.2rem;
+	}
+	.news .carousel {
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+	.news-item {
+		padding-bottom: 30px;
+		border: 1px solid grey;
+	}
+	.data .carousel {
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+	.data-item {
+		border: 1px solid grey;
+	}
+	.footer {
+		padding: 50px 20px 50px 0;
+	}
+	.footer hr {
+		display: none;
+	}
+	.footer-informed {
+		border-left:  1px solid grey;
+		border-right: 1px solid grey;
+		padding: 0 50px;
+	}
+	
+	.socials {
+		padding-top: 20px;
+	}
+	.socials a {
+		display: inline;
+		padding: 5px 7px; 
+		margin: 3px;
+		background-color: #7f7044;
+		border-radius: 50%;
+		color: white;
+	}
+	.footer-help {
+		padding: 0 50px;
+	}
+	.footer-help button {
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+	.footer hr {
+		display: block;
+	}
+	.footer-informed {
+		border: none;
+	}
+	.footer {
+		padding: 20px 50px;
+	}
 }

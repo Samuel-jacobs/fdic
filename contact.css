@@ -24,5 +24,17 @@
 
 .contact-content .fas {
 	color: var(--primaryColor);
-	font-size: 25px;
+	font-size: 20px;
+	padding-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+	.breadcrumb {
+		margin-top: 120px;
+	}
+	.contact {
+		padding-left: 30%;
+		padding-right: 30%;
+		padding-bottom: 50px;
+	}
 }

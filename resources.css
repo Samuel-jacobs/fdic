@@ -175,3 +175,120 @@ li {
 .featured a {
 	color: var(--primaryColor);
 }
+
+@media screen and (max-width: 768px) {
+	.bc-2 {
+		display: none;
+	}
+	.featured-lg {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	main p {
+		line-height: 1.6rem;
+		font-size: 1.4rem;
+	}
+	main h3 {
+		font-size: 2.5rem;
+		padding-bottom: 15px;
+		text-align: left;
+	}
+	li {
+		font-size: 1.3rem;
+		font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+	}
+	.bc-1 {
+		display: none;
+	}
+	.bc-2 {
+		margin-top: 0;
+		padding-top: 0;
+		padding-left: 50px;
+	}
+	.resources-hero {
+		height: 400px;
+		padding: 0 15px;
+		margin-top: 130px;
+	}
+	.resources {
+		padding-bottom: 30px;
+	}
+	.resources-content {
+		padding: 30px 120px;
+	}
+	.resources h3 {
+		padding: 20px 0;
+		text-align: center;
+	}
+	.deposit-insurance {
+		background-image: url(img/fdic-topic-depositinsurance-bg.png);
+		background-size: cover;
+    background-position: 70% 0px;
+    background-repeat: no-repeat;
+		padding: 30px 50px 50px 0;
+	}
+
+	.supervision {
+		background-image: url(img/fdic-topics-supervision-bg.png);
+		background-size: cover;
+    background-position: 76% 0px;
+    background-repeat: no-repeat;
+		padding-left: 100px;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	
+	.laws {
+		background-image: url(img/fdic-resources-lawsregulations.png);
+		background-size: cover;
+    background-position: 70% 0px;
+    background-repeat: no-repeat;
+	}
+	
+	.resolutions {
+		background-image: url(img/fdic-resources-resolutions.jpg);
+		background-size: cover;
+    background-position: 60% 40%;
+    background-repeat: no-repeat;
+	}
+	
+	.data-tools {
+		background-image: url(img/fdic-resources-tools.jpg);
+		background-size: cover;
+    background-position: 70% 0px;
+    background-repeat: no-repeat;
+	}
+	.additional-links h3, .featured h3 {
+		text-align: center;
+	}
+	.line-break {
+		display: block;
+		padding: 0 50px;
+	}
+	.additional-links {
+		margin: 0 auto;
+		padding-left: 30%;
+		padding-right: 30%;
+		height: 450px;
+	}
+	
+	.featured {
+		display: none;
+	}
+	.featured-lg {
+		margin: 0 auto;
+		padding: 50px 100px;
+	}
+	.featured-lg p {
+		color	: #736539;
+	}
+	.featured-lg a {
+		color: var(--primaryColor);
+	}
+	.featured-lg h3 {
+		color: var(--primaryColor);
+	}
+
+}

@@ -99,17 +99,38 @@
 
 				<span onclick="openNav()" class="openbtn"> <i class="fas fa-bars"></i> </span>
 			</nav>
-
+			<nav class="lg-navbar fixed-top">
+				<a href="index.html" class="navbar-logo"><img src="img/fdic-logo.svg" alt="fdic logo"> </a>	
+				<div class="nav-content-main">
+					<div class="nav-content">
+						<a href="about.html" class="nav-links">ABOUT</a>
+					</div>
+					<div class="nav-content">
+						<a href="resources.html" class="nav-links">RESOURCES</a>
+					</div>
+					<div class="nav-content">
+						<a href="analysis.html" class="nav-links">ANALYSIS</a>
+					</div>
+					<div class="nav-content">
+						<a href="news.html" class="nav-links">NEWS</a>
+					</div>
+				</div>
+				
+			</nav>
 			
 		</header>	
 
 	<main>
-		<ul class="breadcrumb">
+		<ul class="breadcrumb bc-1">
 			<li class="breadcrumb-item"><a href="index.html"><i>Home </i> </a></li>
 			<li class="breadcrumb-item active"><i>About</i></li>
 		</ul>
 		<section class="about">
 			<img src="img/hero-about.png" class="hero">
+			<ul class="breadcrumb bc-2">
+				<li class="breadcrumb-item"><a href="index.html"><i>Home </i> </a></li>
+				<li class="breadcrumb-item active"><i>About</i></li>
+			</ul>
 			<div class="about-content">
 				<img src="img/icon-seal.svg" class="text-center">
 				<h3 class="text-center">About</h3>
@@ -131,44 +152,55 @@
 			</ul>
 		</section>
 
-		<section class="careers">
-			<h3> FDIC Careers</h3>
-			<p>At the FDIC, we work behind the scenes to ensure financial safety for depositors across America. The world of banking is changing, and so is the FDIC. We are addressing the new realities of 21st century banking, and we are spearheading new initiatives to support employees, from professional programs to workforce diversity initiatives.</p>
-			<ul>
-				<li><a href="#">Learn More About Career Opportunities at the FDIC ></a> </li>
-				<li><a href="#">Search job Listings ></a> </li>
-				<li><a href="#">Read ABout Our Diversity and Inclusion Initiatives ></a> </li>
-			</ul>
+		<section class="careers row">
+			<div class="col-md-7"></div>
+			<div class="col-md-5">
+				<h3> FDIC Careers</h3>
+				<p>At the FDIC, we work behind the scenes to ensure financial safety for depositors across America. The world of banking is changing, and so is the FDIC. We are addressing the new realities of 21st century banking, and we are spearheading new initiatives to support employees, from professional programs to workforce diversity initiatives.</p>
+				<ul>
+					<li><a href="#">Learn More About Career Opportunities at the FDIC ></a> </li>
+					<li><a href="#">Search job Listings ></a> </li>
+					<li><a href="#">Read ABout Our Diversity and Inclusion Initiatives ></a> </li>
+				</ul>
+			</div>
+		
 		</section>
 
-		<section class="initiatives">
-			<h3>Initiatives</h3>
-			<p>The FDIC has several high-level programs that support our stakeholders, including bankers, consumers, and analysts.</p>
-			<ul>
-				<li><a href="#">Innovation ></a></li>
-				<li><a href="#">Trust through Transparency ></a></li>
-				<li><a href="#">Financial Inclusion ></a></li>
-				<li><a href="#">Community Banking ></a></li>
-				<li><a href="#">Community Affairs ></a></li>
-			</ul>
+		<section class="initiatives row">
+			<div class="col-md-5">
+				<h3>Initiatives</h3>
+				<p>The FDIC has several high-level programs that support our stakeholders, including bankers, consumers, and analysts.</p>
+				<ul>
+					<li><a href="#">Innovation ></a></li>
+					<li><a href="#">Trust through Transparency ></a></li>
+					<li><a href="#">Financial Inclusion ></a></li>
+					<li><a href="#">Community Banking ></a></li>
+					<li><a href="#">Community Affairs ></a></li>
+				</ul>
+			</div>
+			<div class="col-md-7"></div>
 		</section>
 
 		<section class="history">
 			<img src="img/fdic-about-history.jpg" alt="fdic about history">
-			<div class="history-content">
-				<h3 class="text-center">History of FDIC</h3>
-				<p>Since its creation in 1933, the FDIC has been an essential part of the American financial system. In the 1920s and early 1930s, a rise in bank failures created a national crisis, wiping out many Americans’ savings. Since FDIC insurance began in 1934, no depositor has lost a single penny of insured funds due to bank failure.</p>
-				<ul>
-					<li><a href="#">Learn More About the FDIC's History ></a></li>
-				</ul>
-
-				<h3 class="font-weight-light">FDIC Exhibit: A History of Confidence and stability</h3>
-				<ul>
-					<li><a href="#">Background and Creation of the FDIC ></a></li>
-					<li><a href="#">Stability, Change and crisis ></a></li>
-					<li><a href="#">Recovery, Crisis and Reform ></a></li>
-					<li><a href="#">The FDIC at work ></a></li>
-				</ul>
+			<div class="history-content row">
+				<div class="col-md-7">
+					<h3 class="text-center">History of FDIC</h3>
+					<p>Since its creation in 1933, the FDIC has been an essential part of the American financial system. In the 1920s and early 1930s, a rise in bank failures created a national crisis, wiping out many Americans’ savings. Since FDIC insurance began in 1934, no depositor has lost a single penny of insured funds due to bank failure.</p>
+					<ul>
+						<li><a href="#">Learn More About the FDIC's History ></a></li>
+					</ul>
+				</div>
+				<div class="col-md-5">
+					<h4 class="history-h">FDIC Exhibit: A History of Confidence and stability</h4>
+					<ul>
+						<li><a href="#">Background and Creation of the FDIC ></a></li>
+						<li><a href="#">Stability, Change and crisis ></a></li>
+						<li><a href="#">Recovery, Crisis and Reform ></a></li>
+						<li><a href="#">The FDIC at work ></a></li>
+					</ul>
+				</div>
+				
 			</div>
 		</section>
 
@@ -250,20 +282,69 @@
 				</ul>
 			</div><!--end of main carousel div-->
 		</section>
+
+		<!--featured for large screen-->
+		<section class="featured-lg">
+			<h3 class="text-center pb-5">Featured</h3>
+			<div class="row">
+				<div class="col-12">
+					<div id="carousel2" class="carousel slide" data-interval="false" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="card">
+											<img src="img/diversity.jpg" class="card-img-top" alt="diversity image">
+											<div class="card-body">
+												<p>PROGRAMS</p>
+												<a href="#">Diversity & Inclusion</a>
+											</div>
+										</div>	
+									</div>
+									<div class="col-sm-4">
+										<div class="card">
+											<img src="img/advisory-committees.jpg" class="card-img-top">
+											<div class="card-body">
+												<p>INITIATIVES</p>
+												<a href="#">Advisory Committees</a>
+											</div>
+										</div>	
+									</div>
+									<div class="col-sm-4">
+										<div class="card">
+											<img src="img/fditech.jpg" class="card-img-top">
+											<div class="card-body">
+												<p>INNOVATION</p>
+												<a href="#">FDiTech</a>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+			
+		</section>
+
 	</main>
 
 		
 
-	<footer class="footer">
-		<div class="footer-contact">
+	<footer class="footer row">
+		<div class="footer-contact col-lg-4">
 			<h3 class="mb-4">CONTACT THE FDIC</h3>
 			<button type="button" class="footer-btn"><a href="contact.html">CONTACT US</a></button>
+			<hr class="line">
 		</div>
 		<hr class="line"> 
-		<div class="footer-informed">
+		<div class="footer-informed col-lg-4">
 			<h3 class="mb-4">STAY INFORMED</h3>
 			<form>
-				<input type="text" placeholder="enter your email address" class="input-email"> <br>
+				<input type="text" placeholder="enter your email address" class="input-email form-control"> <br>
 				<button type="button" value="submit" class="footer-btn"> GET STARTED</button>
 			</form>
 			<div class="socials">
@@ -274,10 +355,10 @@
 				<a href="#"><i class="fab fa-flickr"></i></a>
 				<a href="#"><i class="fas fa-play"></i></a>
 			</div>
-
+			<hr class="line">
 		</div>
-		<hr class="line">
-		<div class="footer-help">
+		
+		<div class="footer-help col-lg-4">
 			<h3>HOW CAN WE HELP YOU?</h3>
 			<form>
 				<select name="help" id="" class="custom-select">

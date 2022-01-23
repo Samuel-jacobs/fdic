@@ -137,3 +137,106 @@ li {
 .featured a {
 	color: var(--primaryColor);
 }
+@media screen and (max-width: 768px) {
+	.bc-2 {
+		display: none;
+	}
+	.featured-lg {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	main p {
+		line-height: 1.6rem;
+		font-size: 1.4rem;
+	}
+	main h3 {
+		font-size: 2.5rem;
+		padding-bottom: 15px;
+		text-align: left;
+	}
+	li {
+		font-size: 1.3rem;
+		font-family: "Merriweather Web", Georgia, Cambria, "Times New Roman", Times, serif;
+	}
+	.bc-1 {
+		display: none;
+	}
+	.bc-2 {
+		margin-top: 0;
+		padding-top: 0;
+		padding-left: 50px;
+	}
+	.analysis-hero {
+		height: 400px;
+		padding: 0 15px;
+		margin-top: 130px;
+	}
+	.analysis {
+		padding-bottom: 30px;
+	}
+	.analysis-content {
+		padding: 30px 120px;
+	}
+	.analysis h3 {
+		padding: 20px 0;
+		text-align: center;
+	}
+
+	.financial-research {
+		background-image: url(img/fdic-analysis-financialresearch-bg.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+		padding: 50px 0 50px 100px;
+	}
+
+	.banking-profile {
+		background-image: url(img/fdic-analysis-quarterlyprofile-bg.jpg);
+		background-position: 40% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+		padding: 50px 100px 50px 0;
+	}
+
+	.america-banks {
+		background-image: url(img/fdic-analysis-natsurvey-bg.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+		padding: 50px 0 50px 100px;
+	}
+
+	.additional-links h3, .featured h3 {
+		text-align: center;
+	}
+	.line-break {
+		display: block;
+		padding: 0 50px;
+	}
+	.additional-links {
+		margin: 0 auto;
+		padding-left: 30%;
+		padding-right: 30%;
+		height: 450px;
+	}
+	
+	.featured {
+		display: none;
+	}
+	.featured-lg {
+		margin: 0 auto;
+		padding: 50px 100px;
+	}
+	.featured-lg p {
+		color	: #736539;
+	}
+	.featured-lg a {
+		color: var(--primaryColor);
+	}
+	.featured-lg h3 {
+		color: var(--primaryColor);
+		text-align: center;
+	}
+}

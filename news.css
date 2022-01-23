@@ -208,3 +208,128 @@ h3 {
 	color: var(--primaryColor);
 	padding-top: 30px;
 }
+@media screen and (max-width: 768px) {
+	.breadcrumb {
+		margin-top: 0;
+	}
+	.news-section1-lg {
+		display: none;
+	}
+	.videos-carousel-lg {
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 769px) {
+	main p {
+		line-height: 1.6rem;
+		font-size: 1.4rem;
+	}
+	.main h3 {
+		font-size: 2.5rem;
+	}
+	.line-break {
+		display: block;
+	}
+	
+	.news-main {
+		padding-bottom: 30px;
+	}
+	.news-content {
+		padding: 30px 120px;
+	}
+	.news-section1 {
+		display: none;
+	}
+	.news-section1-lg {
+		padding: 50px 100px;
+	}
+	.news-section1-lg img {
+		margin: 0 auto;
+		width: 100%;
+		height: 250px;
+	}
+	.news-section1-lg a {
+		color: var(--primaryColor);
+	}
+	.news-main h3 {
+		padding: 20px 0;
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+	.calendar {
+		background-image: url(img/fdic-news-calendar-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+		
+	}
+	.press-releases {
+		height: 300px;
+	}
+	.news-align {
+		margin: 0 auto;
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+	.videos {
+		padding-left: 80px;
+		padding-right: 50px;
+	}
+	.videos h3 {
+		font-size: 2.5rem;
+	}
+	.vc-text {
+		padding-top: 50px;
+	}
+	.vc-text a {
+		text-decoration: underline;
+		font-size: 1.4rem;
+	}
+	.videos-carousel {
+		display: none;
+	}
+	.videos-carousel-lg {
+		padding-top: 100px;
+	}
+	.videos-carousel-lg .card {
+		height: 300px;
+	}
+	.videos-carousel-lg p {
+		color: var(--secondaryColor);
+	}
+	.videos-carousel-lg a {
+		color: var(--primaryColor);
+	}
+
+
+	.podcast {
+		padding: 30px 120px
+	}
+	.podcast-image {
+		padding-right: 30px;
+	}
+	.podcast-text {
+		padding-top: 50px;
+		padding-left: 30px;
+	}
+	.podcast h3 {
+		font-size: 2.5rem;
+	}
+	.podcast p {
+		color: #444343;
+		line-height: 1.5;
+		font-size: 1.2rem;
+	}
+	.speeches {
+		background-image: url(img/fdic-news-testimony-bg-top.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+	.institution-letters {
+		height: 300px;
+	}
+}

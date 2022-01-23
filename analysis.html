@@ -99,15 +99,37 @@
 
 				<span onclick="openNav()" class="openbtn"> <i class="fas fa-bars"></i> </span>
 			</nav>
+			<nav class="lg-navbar fixed-top">
+				<a href="index.html" class="navbar-logo"><img src="img/fdic-logo.svg" alt="fdic logo"> </a>	
+				<div class="nav-content-main">
+					<div class="nav-content">
+						<a href="about.html" class="nav-links">ABOUT</a>
+					</div>
+					<div class="nav-content">
+						<a href="resources.html" class="nav-links">RESOURCES</a>
+					</div>
+					<div class="nav-content">
+						<a href="analysis.html" class="nav-links">ANALYSIS</a>
+					</div>
+					<div class="nav-content">
+						<a href="news.html" class="nav-links">NEWS</a>
+					</div>
+				</div>
+				
+			</nav>
 		</header>	
 
 	<main>
-		<ul class="breadcrumb">
+		<ul class="breadcrumb bc-1">
 			<li class="breadcrumb-item"><a href="index.html"><i>Home </i> </a></li>
 			<li class="breadcrumb-item active"><i>Analysis</i></li>
 		</ul>
 		<section class="analysis">
 			<img src="img/hero-analysis.png" class="analysis-hero" alt="analysis hero image">
+			<ul class="breadcrumb bc-2">
+				<li class="breadcrumb-item"><a href="index.html"><i>Home </i> </a></li>
+				<li class="breadcrumb-item active"><i>Analysis</i></li>
+			</ul>
 			<div class="analysis-content">
 				<img src="img/icon-analysis.svg" aalt="analysis icon">
 				<h3 class="pt-2">Analysis</h3>
@@ -115,38 +137,49 @@
 			</div>
 		</section>
 
-		<section class="financial-research">
-			<h3>Center for Financial Research</h3>
-			<p class="pt-3">The Center promotes research on topics important to the FDIC mission, including deposit insurance, bank supervision, and resolution of failed financial institutions.</p>
+		<section class="financial-research row">
+			<div class="col-md-5">
+				<h3>Center for Financial Research</h3>
+				<p class="pt-3">The Center promotes research on topics important to the FDIC mission, including deposit insurance, bank supervision, and resolution of failed financial institutions.</p>
 
-			<ul>
-				<li><a href="#">Working Papers ></a></li>
-				<li><a href="#">External Published Research ></a></li>
-				<li><a href="#">Bank Research Conference ></a></li>
-				<li><a href="#">Consumer Research Symposium ></a></li>
-				<li><a href="#">Seminar Series ></a></li>
-				<li><a href="#">FDIC Academic Challenge ></a></li>
-			</ul>
+				<ul>
+					<li><a href="#">Working Papers ></a></li>
+					<li><a href="#">External Published Research ></a></li>
+					<li><a href="#">Bank Research Conference ></a></li>
+					<li><a href="#">Consumer Research Symposium ></a></li>
+					<li><a href="#">Seminar Series ></a></li>
+					<li><a href="#">FDIC Academic Challenge ></a></li>
+				</ul>
+			</div>
+			<div class="col-md-7"></div>
+			
 		</section>
 
-		<section class="banking-profile">
-			<h3>Quarterly Banking Profile</h3>
-			<p class="pt-3">The Quarterly Banking Profile provides a comprehensive summary of financial results for all FDIC-insured institutions. This report card on industry status and performance includes written analyses, graphs, and statistical tables.</p>
+		<section class="banking-profile row">
+			<div class="col-sm-7"></div>
+			<div class="col-sm-5">
+				<h3>Quarterly Banking Profile</h3>
+				<p class="pt-3">The Quarterly Banking Profile provides a comprehensive summary of financial results for all FDIC-insured institutions. This report card on industry status and performance includes written analyses, graphs, and statistical tables.</p>
 
-			<ul>
-				<li><a href="#">Latest Profile ></a></li>
-				<li><a href="#">Graph Book ></a></li>
-				<li><a href="#">Statistics at a Glance ></a></li>
-			</ul>
+				<ul>
+					<li><a href="#">Latest Profile ></a></li>
+					<li><a href="#">Graph Book ></a></li>
+					<li><a href="#">Statistics at a Glance ></a></li>
+				</ul>
+			</div>
+			
 		</section>
 
-		<section class="america-banks">
-			<h3>How America Banks</h3>
-			<p class="pt-3">To assess the inclusiveness of the banking system, the FDIC has surveyed households biennially since 2009.</p>
+		<section class="america-banks row">
+			<div class="col-md-5">
+				<h3>How America Banks</h3>
+				<p class="pt-3">To assess the inclusiveness of the banking system, the FDIC has surveyed households biennially since 2009.</p>
 
-			<ul>
-				<li><a href="#"> 2019 Survey Results ></a> </li>
-			</ul>
+				<ul>
+					<li><a href="#"> 2019 Survey Results ></a> </li>
+				</ul>
+			</div>
+			<div class="col-md-7"></div>
 		</section>
 
 		<section class="additional-links">
@@ -211,20 +244,58 @@
 				</ol>
 			</div>
 		</section>
+		<section class="featured-lg">
+			<h3 class="pb-5">Featured</h3>
+			<div class="row">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="card">
+								<img src="img/risk-review.jpg" alt="risk review image" class="card-img-top">
+								<div class="card-body">
+									<p>REPORT</p>
+									<a href="#">Risk Review</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card">
+								<img src="img/fdic-resources-staffstudies.jpg" alt="staff studies image" class="card-img-top">
+								<div class="card-body">
+									<p>ANALYSIS</p>
+									<a href="#">State Profiles</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card">
+								<img src="img/fdic-resources-staffstudies.jpg" alt="staff studies image" class="card-img-top">
+								<div class="card-body">
+									<p>ANALYSIS</p>
+									<a href="#">Staff Studies</a> 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
 	</main>
 
 		
 
-	<footer class="footer">
-		<div class="footer-contact">
+	<footer class="footer row">
+		<div class="footer-contact col-lg-4">
 			<h3 class="mb-4">CONTACT THE FDIC</h3>
 			<button type="button" class="footer-btn"><a href="contact.html">CONTACT US</a></button>
+			<hr class="line">
 		</div>
 		<hr class="line"> 
-		<div class="footer-informed">
+		<div class="footer-informed col-lg-4">
 			<h3 class="mb-4">STAY INFORMED</h3>
 			<form>
-				<input type="text" placeholder="enter your email address" class="input-email"> <br>
+				<input type="text" placeholder="enter your email address" class="input-email form-control"> <br>
 				<button type="button" value="submit" class="footer-btn"> GET STARTED</button>
 			</form>
 			<div class="socials">
@@ -235,10 +306,10 @@
 				<a href="#"><i class="fab fa-flickr"></i></a>
 				<a href="#"><i class="fas fa-play"></i></a>
 			</div>
-
+			<hr class="line">
 		</div>
-		<hr class="line">
-		<div class="footer-help">
+		
+		<div class="footer-help col-lg-4">
 			<h3>HOW CAN WE HELP YOU?</h3>
 			<form>
 				<select name="help" id="" class="custom-select">
